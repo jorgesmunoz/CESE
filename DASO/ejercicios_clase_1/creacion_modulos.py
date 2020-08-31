@@ -1,0 +1,3 @@
+import saludos
+
+saludos.adios()
