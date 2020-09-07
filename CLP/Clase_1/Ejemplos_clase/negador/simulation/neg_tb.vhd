@@ -14,7 +14,7 @@ architecture neg_tb_arq of neg_tb is
 	component neg is
 		port(
 			a_i: in std_logic;
-			b_o: out std_logic;
+			b_o: out std_logic
 		);	
 	end component;
 	
@@ -34,7 +34,7 @@ begin
 	-- DUT: es un etiqueta (Device Under Test)
 	DUT: neg
 		port map(
-			a_i => ,a_tb,
+			a_i => a_tb,
 			b_o => b_tb
 		);
 

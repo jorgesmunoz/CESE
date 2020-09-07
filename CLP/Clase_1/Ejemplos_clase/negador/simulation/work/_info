@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/.local/share/Trash/files/negador/simulation
+Eneg
+Z0 w1599433359
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 d/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/simulation
+Z4 8/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/neg.vhd
+Z5 F/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/neg.vhd
+l0
+L5 1
+VcAQd;iJUB@IbIWimf?VLY2
+!s100 Kl2GdnoG7SdOKLILIE4zY1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1599433666
+!i10b 1
+Z8 !s108 1599433666.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/neg.vhd|
+Z10 !s107 /home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/neg.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aneg_tb
+R1
+R2
+DEx4 work 3 neg 0 22 cAQd;iJUB@IbIWimf?VLY2
+!i122 0
+l15
+L12 9
+V28hCJfHCz:lWNEcf_VSQ;0
+!s100 @YTZMRhjNg?F^fLE;ISJ51
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eneg_tb
+Z13 w1599433661
+R1
+R2
+!i122 1
+R3
+Z14 8/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/simulation/neg_tb.vhd
+Z15 F/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/simulation/neg_tb.vhd
+l0
+L6 1
+V`dDF^Oz^Z:38oJH9o_LS^2
+!s100 FcXJJMN:6TRae=FGEhNCT0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/simulation/neg_tb.vhd|
+!s107 /home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/simulation/neg_tb.vhd|
+!i113 1
+R11
+R12
+Aneg_tb_arq
+R1
+R2
+DEx4 work 6 neg_tb 0 22 `dDF^Oz^Z:38oJH9o_LS^2
+!i122 1
+l24
+L9 33
+V0_bBRM4NO;RI:Zl3zoG2A1
+!s100 HXDJ@1mnAgfg:c@7=1DJo0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 /home/jorge/Jorge/CESE_2020/Herramientas/materias/github_cese/CESE/CLP/Clase_1/Ejemplos_clase/negador/simulation/neg_tb.vhd|
+!i113 1
+R11
+R12

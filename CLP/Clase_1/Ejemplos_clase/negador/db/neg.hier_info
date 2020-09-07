@@ -1,0 +1,5 @@
+|neg
+a_i => b_o.DATAIN
+b_o <= a_i.DB_MAX_OUTPUT_PORT_TYPE
+
+
