@@ -9,16 +9,17 @@ class Persona:
         self.set_edad(edad)
 
     def set_nombre(self, nombre):
-        self.nombre = nombre
+        if nombre != "":
+            self.__nombre = nombre
 
     def set_edad(self, edad):
-        self.edad = edad
+        self.__edad = edad
     
     def get_nombre(self):
-        return self.nombre
+        return self.__nombre
 
     def get_edad(self):
-        return self.edad
+        return self.__edad
     
     def es_mayor_de_edad(self):
         if self.get_edad() >= Persona.MAYORIA_EDAD:
@@ -49,6 +50,7 @@ class Persona:
     @staticmethod
     def dump_csv(archivo, personas):
         with open(archivo, "w", encoding="utf-8") as f:
+            #Se define primera linea
             line = "nombre,edad\n"
             f.write(line)
             for p in personas:
