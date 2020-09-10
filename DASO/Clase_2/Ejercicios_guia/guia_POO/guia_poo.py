@@ -24,6 +24,7 @@ if p1.es_mayor_que():
 else:
     print("Es menor que actual!")
 
+#Escribe archivo
 Persona.dump_csv(archivo, personas)
-
+#Lee archivo
 print(Persona.load_csv(archivo))
