@@ -1,0 +1,51 @@
+# Loading project ejercicio_1_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project ejercicio_2_simu
+# Compile of ejercicio_2.vhd failed with 3 errors.
+# Compile of ejercicio_2_VHD.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of ejercicio_2.vhd failed with 3 errors.
+# Compile of ejercicio_2_VHD.vhd failed with 1 errors.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 2 failed with 4 errors.
+reset
+# c]104[!p[?3;4l[4l>
+# Compile of ejercicio_2.vhd was successful.
+# Compile of ejercicio_2_VHD.vhd failed with 1 errors.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of ejercicio_2.vhd was successful.
+# Compile of ejercicio_2_VHD.vhd failed with 15 errors.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 1 failed with 15 errors.
+# Compile of ejercicio_2.vhd was successful.
+# Compile of ejercicio_2_VHD.vhd failed with 20 errors.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 1 failed with 20 errors.
+# Compile of ejercicio_2.vhd was successful.
+# Compile of ejercicio_2_VHD.vhd failed with 4 errors.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 1 failed with 4 errors.
+# Compile of ejercicio_2.vhd was successful.
+# Compile of ejercicio_2_VHD.vhd was successful with warnings.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ejercicio_2.vhd was successful.
+# Compile of ejercicio_2_VHD.vhd was successful.
+# Compile of sum1b.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.ejercicio_2_vhd
+# vsim work.ejercicio_2_vhd 
+# Start time: 22:23:15 on Sep 15,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ejercicio_2_vhd(behav)
+# Loading work.ejercicio_2(sumnbit)
+# Loading work.sum1b(sum1b_arq)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/ejercicio_2_vhd/*
+run 3us
+# End time: 22:28:47 on Sep 15,2020, Elapsed time: 0:05:32
+# Errors: 0, Warnings: 14

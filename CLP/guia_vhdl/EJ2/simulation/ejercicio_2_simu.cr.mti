@@ -1,0 +1,27 @@
+/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ2/ejercicio_2.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ2/ejercicio_2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ejercicio_2
+-- Compiling architecture sumNbit of ejercicio_2
+-- Loading entity sum1b
+
+} {} {}} /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ2/simulation/ejercicio_2_VHD.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ2/simulation/ejercicio_2_VHD.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ejercicio_2_VHD
+-- Compiling architecture behav of ejercicio_2_VHD
+-- Loading entity ejercicio_2
+
+} {} {}} /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ2/sum1b.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ2/sum1b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b
+-- Compiling architecture sum1b_arq of sum1b
+
+} {} {}}

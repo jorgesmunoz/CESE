@@ -1,0 +1,73 @@
+|ejercicio_2
+aSum_in[0] => sum1b:sumNbit_gen:0:sum_inst.a_i
+aSum_in[1] => sum1b:sumNbit_gen:1:sum_inst.a_i
+aSum_in[2] => sum1b:sumNbit_gen:2:sum_inst.a_i
+aSum_in[3] => sum1b:sumNbit_gen:3:sum_inst.a_i
+bSum_in[0] => sum1b:sumNbit_gen:0:sum_inst.b_i
+bSum_in[1] => sum1b:sumNbit_gen:1:sum_inst.b_i
+bSum_in[2] => sum1b:sumNbit_gen:2:sum_inst.b_i
+bSum_in[3] => sum1b:sumNbit_gen:3:sum_inst.b_i
+carry_in => sum1b:sumNbit_gen:0:sum_inst.ci_i
+sSum_out[0] <= sum1b:sumNbit_gen:0:sum_inst.s_o
+sSum_out[1] <= sum1b:sumNbit_gen:1:sum_inst.s_o
+sSum_out[2] <= sum1b:sumNbit_gen:2:sum_inst.s_o
+sSum_out[3] <= sum1b:sumNbit_gen:3:sum_inst.s_o
+carry_out <= sum1b:sumNbit_gen:3:sum_inst.co_o
+
+
+|ejercicio_2|sum1b:\sumNbit_gen:0:sum_inst
+a_i => s_o.IN0
+a_i => co_o.IN0
+a_i => co_o.IN0
+b_i => s_o.IN1
+b_i => co_o.IN1
+b_i => co_o.IN0
+ci_i => s_o.IN1
+ci_i => co_o.IN1
+ci_i => co_o.IN1
+s_o <= s_o.DB_MAX_OUTPUT_PORT_TYPE
+co_o <= co_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ejercicio_2|sum1b:\sumNbit_gen:1:sum_inst
+a_i => s_o.IN0
+a_i => co_o.IN0
+a_i => co_o.IN0
+b_i => s_o.IN1
+b_i => co_o.IN1
+b_i => co_o.IN0
+ci_i => s_o.IN1
+ci_i => co_o.IN1
+ci_i => co_o.IN1
+s_o <= s_o.DB_MAX_OUTPUT_PORT_TYPE
+co_o <= co_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ejercicio_2|sum1b:\sumNbit_gen:2:sum_inst
+a_i => s_o.IN0
+a_i => co_o.IN0
+a_i => co_o.IN0
+b_i => s_o.IN1
+b_i => co_o.IN1
+b_i => co_o.IN0
+ci_i => s_o.IN1
+ci_i => co_o.IN1
+ci_i => co_o.IN1
+s_o <= s_o.DB_MAX_OUTPUT_PORT_TYPE
+co_o <= co_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ejercicio_2|sum1b:\sumNbit_gen:3:sum_inst
+a_i => s_o.IN0
+a_i => co_o.IN0
+a_i => co_o.IN0
+b_i => s_o.IN1
+b_i => co_o.IN1
+b_i => co_o.IN0
+ci_i => s_o.IN1
+ci_i => co_o.IN1
+ci_i => co_o.IN1
+s_o <= s_o.DB_MAX_OUTPUT_PORT_TYPE
+co_o <= co_o.DB_MAX_OUTPUT_PORT_TYPE
+
+

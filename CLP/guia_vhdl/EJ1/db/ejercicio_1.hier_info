@@ -1,0 +1,14 @@
+|ejercicio_1
+a_in => s_out.IN0
+a_in => c_out.IN0
+a_in => c_out.IN0
+b_in => s_out.IN1
+b_in => c_out.IN1
+b_in => c_out.IN0
+c_in => s_out.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s_out <= s_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

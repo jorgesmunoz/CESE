@@ -1,0 +1,6 @@
+|reg4bits_serie
+pin_in => ~NO_FANOUT~
+pin_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+clk => ~NO_FANOUT~
+
+
