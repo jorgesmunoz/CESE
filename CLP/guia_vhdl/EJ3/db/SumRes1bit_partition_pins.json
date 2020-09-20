@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "carry_out",
+					"strict" : false
+				},
+				{
+					"name" : "res_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "res_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "res_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "res_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bNum_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bNum_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bNum_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bNum_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "carry_in",
+					"strict" : false
+				},
+				{
+					"name" : "srEnable_in",
+					"strict" : false
+				},
+				{
+					"name" : "aNum_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "aNum_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aNum_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aNum_in[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

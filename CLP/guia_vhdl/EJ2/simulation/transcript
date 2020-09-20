@@ -1,1 +1,51 @@
 # Loading project ejercicio_2_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project ffd_simu
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ffd_vhd
+# vsim work.ffd_vhd 
+# Start time: 21:50:28 on Sep 17,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ffd_vhd(behav)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/ffd_vhd/*
+run 3us
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/ffd_vhd/*
+run 3us
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/ffd_vhd/*
+run 3us
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ffd_vhd
+# End time: 21:55:03 on Sep 17,2020, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 9
+# vsim work.ffd_vhd 
+# Start time: 21:55:03 on Sep 17,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ffd_vhd(behav)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/ffd_vhd/*
+run 3us
+# End time: 22:50:33 on Sep 17,2020, Elapsed time: 0:55:30
+# Errors: 0, Warnings: 1

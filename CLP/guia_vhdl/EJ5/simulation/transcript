@@ -1,0 +1,135 @@
+# Loading project ffd_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project SumRes1bit_simu
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes1bit_VHD.vhd failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes1bit_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes1bit_VHD.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes1bit_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.sumres1bit_vhd
+# vsim work.sumres1bit_vhd 
+# Start time: 16:16:47 on Sep 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumres1bit_vhd(behav)
+# Loading work.sumres1bit(sumres1bit_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/sumres1bit_vhd/*
+run 3us
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes1bit_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.sumres1bit_vhd
+# End time: 16:22:45 on Sep 19,2020, Elapsed time: 0:05:58
+# Errors: 0, Warnings: 10
+# vsim work.sumres1bit_vhd 
+# Start time: 16:22:45 on Sep 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumres1bit_vhd(behav)
+# Loading work.sumres1bit(sumres1bit_arch)
+add wave sim:/sumres1bit_vhd/*
+run 3us
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes1bit_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.sumres1bit_vhd
+# End time: 16:24:45 on Sep 19,2020, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 2
+# vsim work.sumres1bit_vhd 
+# Start time: 16:24:45 on Sep 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumres1bit_vhd(behav)
+# Loading work.sumres1bit(sumres1bit_arch)
+add wave sim:/sumres1bit_vhd/*
+run 3us
+quit_sim
+# invalid command name "quit_sim"
+"quit-sim"
+# invalid command name "quit-sim"
+quit-sim
+# invalid command name "quit-sim"
+quit -sim
+# End time: 23:58:49 on Sep 19,2020, Elapsed time: 7:34:04
+# Errors: 0, Warnings: 1
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project SumRes4bit_simu
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd failed with 4 errors.
+# 3 compiles, 1 failed with 4 errors.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd failed with 3 errors.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd failed with 3 errors.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd failed with 8 errors.
+# 3 compiles, 1 failed with 8 errors.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.sumres4bit_vhd
+# vsim work.sumres4bit_vhd 
+# Start time: 00:18:26 on Sep 20,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumres4bit_vhd(behav)
+# Loading work.sumres4bit(sumres4bit_arch)
+# Loading work.sumres1bit(sumres1bit_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/sumres4bit_vhd/*
+run 3us
+# Compile of SumRes1bit.vhd was successful.
+# Compile of SumRes4bit.vhd was successful.
+# Compile of SumRes4bit_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.sumres4bit_vhd
+# End time: 00:42:04 on Sep 20,2020, Elapsed time: 0:23:38
+# Errors: 0, Warnings: 13
+# vsim work.sumres4bit_vhd 
+# Start time: 00:42:04 on Sep 20,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumres4bit_vhd(behav)
+# Loading work.sumres4bit(sumres4bit_arch)
+# Loading work.sumres1bit(sumres1bit_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/sumres4bit_vhd/*
+run 3us
+# End time: 00:44:42 on Sep 20,2020, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 1

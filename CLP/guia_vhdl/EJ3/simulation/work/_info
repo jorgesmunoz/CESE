@@ -1,0 +1,186 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5/simulation
+Esumres1bit
+Z0 w1600542086
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 33
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes1bit.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes1bit.vhd
+l0
+L6 1
+V^K?90CF8TPflieC^o2>Y>3
+!s100 ]__EX_1kdjnE1c?05E1fE2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1600573314
+!i10b 1
+Z9 !s108 1600573314.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes1bit.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes1bit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Asumres1bit_arch
+R1
+R2
+R3
+Z14 DEx4 work 10 sumres1bit 0 22 ^K?90CF8TPflieC^o2>Y>3
+!i122 33
+l22
+L17 17
+VSYmRU`UP3Qj5ffSR584OM2
+!s100 TDYD6TY7iEeAn>9M1CQ4n1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esumres1bit_vhd
+Z15 w1600543456
+R1
+R2
+R3
+!i122 11
+R4
+Z16 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes1bit_VHD.vhd
+Z17 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes1bit_VHD.vhd
+l0
+L5 1
+V<C8bj_o_;o`OY;V2K`fzI2
+!s100 ;DS`57GRKH@X:P3^MogYC0
+R7
+32
+Z18 !s110 1600543478
+!i10b 1
+Z19 !s108 1600543478.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes1bit_VHD.vhd|
+Z21 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes1bit_VHD.vhd|
+!i113 1
+R12
+R13
+Abehav
+R14
+R1
+R2
+R3
+DEx4 work 14 sumres1bit_vhd 0 22 <C8bj_o_;o`OY;V2K`fzI2
+!i122 11
+l30
+L20 28
+V[@^5S>=V>JM9UN2:m]kdd3
+!s100 1?X[RZNXRF?Ld@AkDO:;z3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Esumres4bit
+Z22 w1600573255
+R1
+R2
+R3
+!i122 34
+R4
+Z23 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes4bit.vhd
+Z24 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes4bit.vhd
+l0
+L6 1
+VEJZLZC[YJ<GEn0;SPN4>z0
+!s100 VaZl]h;G5RRTD31UM=;^b2
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes4bit.vhd|
+Z26 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/SumRes4bit.vhd|
+!i113 1
+R12
+R13
+Asumres4bit_arch
+R14
+R1
+R2
+R3
+Z27 DEx4 work 10 sumres4bit 0 22 EJZLZC[YJ<GEn0;SPN4>z0
+!i122 34
+l26
+L20 22
+V=I`lTW^]Q@lTiTHF@lhWd3
+!s100 bE<BdM1S84o]9_`PmT<P=2
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Esumres4bit_vhd
+Z28 w1600571887
+R1
+R2
+R3
+!i122 35
+R4
+Z29 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes4bit_VHD.vhd
+Z30 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes4bit_VHD.vhd
+l0
+L5 1
+V?TIbl_iRc7i4cFUFRQ^og0
+!s100 T@BWAkCnmOBA[?KaKT=1n0
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes4bit_VHD.vhd|
+Z32 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation/SumRes4bit_VHD.vhd|
+!i113 1
+R12
+R13
+Abehav
+R27
+R1
+R2
+R3
+Z33 DEx4 work 14 sumres4bit_vhd 0 22 ?TIbl_iRc7i4cFUFRQ^og0
+!i122 35
+l19
+Z34 L8 43
+Z35 V@UM03;k8?<Dd;i8545;?o0
+Z36 !s100 [B>z=^3TbcNhhV9M`m9Rk3
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13

@@ -1,0 +1,97 @@
+|SumRes4bit
+aNum_in[0] => sumres1bit:SumRes4bit:0:SumRes.a_in
+aNum_in[1] => sumres1bit:SumRes4bit:1:SumRes.a_in
+aNum_in[2] => sumres1bit:SumRes4bit:2:SumRes.a_in
+aNum_in[3] => sumres1bit:SumRes4bit:3:SumRes.a_in
+bNum_in[0] => sumres1bit:SumRes4bit:0:SumRes.b_in
+bNum_in[1] => sumres1bit:SumRes4bit:1:SumRes.b_in
+bNum_in[2] => sumres1bit:SumRes4bit:2:SumRes.b_in
+bNum_in[3] => sumres1bit:SumRes4bit:3:SumRes.b_in
+carry_in => sumres1bit:SumRes4bit:0:SumRes.c_in
+srEnable_in => sumres1bit:SumRes4bit:0:SumRes.sr_in
+srEnable_in => sumres1bit:SumRes4bit:1:SumRes.sr_in
+srEnable_in => sumres1bit:SumRes4bit:2:SumRes.sr_in
+srEnable_in => sumres1bit:SumRes4bit:3:SumRes.sr_in
+carry_out <= sumres1bit:SumRes4bit:3:SumRes.c_out
+res_out[0] <= sumres1bit:SumRes4bit:0:SumRes.s_out
+res_out[1] <= sumres1bit:SumRes4bit:1:SumRes.s_out
+res_out[2] <= sumres1bit:SumRes4bit:2:SumRes.s_out
+res_out[3] <= sumres1bit:SumRes4bit:3:SumRes.s_out
+
+
+|SumRes4bit|SumRes1bit:\SumRes4bit:0:SumRes
+a_in => c_out.IN0
+a_in => c_out.IN0
+a_in => s_out.IN0
+a_in => c_out.IN0
+a_in => c_out.IN0
+b_in => c_out.IN1
+b_in => s_out.IN1
+b_in => c_out.IN1
+b_in => c_out.IN0
+c_in => c_out.IN1
+c_in => s_out.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+sr_in => c_out.OUTPUTSELECT
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s_out <= s_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumRes4bit|SumRes1bit:\SumRes4bit:1:SumRes
+a_in => c_out.IN0
+a_in => c_out.IN0
+a_in => s_out.IN0
+a_in => c_out.IN0
+a_in => c_out.IN0
+b_in => c_out.IN1
+b_in => s_out.IN1
+b_in => c_out.IN1
+b_in => c_out.IN0
+c_in => c_out.IN1
+c_in => s_out.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+sr_in => c_out.OUTPUTSELECT
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s_out <= s_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumRes4bit|SumRes1bit:\SumRes4bit:2:SumRes
+a_in => c_out.IN0
+a_in => c_out.IN0
+a_in => s_out.IN0
+a_in => c_out.IN0
+a_in => c_out.IN0
+b_in => c_out.IN1
+b_in => s_out.IN1
+b_in => c_out.IN1
+b_in => c_out.IN0
+c_in => c_out.IN1
+c_in => s_out.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+sr_in => c_out.OUTPUTSELECT
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s_out <= s_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumRes4bit|SumRes1bit:\SumRes4bit:3:SumRes
+a_in => c_out.IN0
+a_in => c_out.IN0
+a_in => s_out.IN0
+a_in => c_out.IN0
+a_in => c_out.IN0
+b_in => c_out.IN1
+b_in => s_out.IN1
+b_in => c_out.IN1
+b_in => c_out.IN0
+c_in => c_out.IN1
+c_in => s_out.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+sr_in => c_out.OUTPUTSELECT
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s_out <= s_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
