@@ -1,0 +1,7 @@
+|multiplexor2x1
+signal_in[1] => out_out.DATAA
+signal_in[0] => out_out.DATAB
+sel_in => out_out.OUTPUTSELECT
+out_out <= out_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

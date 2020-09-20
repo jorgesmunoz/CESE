@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ3/simulation
+Emultiplexor2x1
+Z0 w1600611151
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/multiplexor2x1.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/multiplexor2x1.vhd
+l0
+L5 1
+VD0PacKi7?@WFz4WKlB3BU3
+!s100 IVcb;OVg9eLkHCQH2`h3:0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1600611696
+!i10b 1
+Z9 !s108 1600611696.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/multiplexor2x1.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/multiplexor2x1.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+R3
+Z14 DEx4 work 14 multiplexor2x1 0 22 D0PacKi7?@WFz4WKlB3BU3
+!i122 2
+l15
+L14 5
+V2aa>US3Z8PSA8I1IiM:Km3
+!s100 2Q]PYTFfWYXBA6ME`S6iU1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emultiplexor2x1_vhd
+Z15 w1600611692
+R1
+R2
+R3
+!i122 3
+R4
+Z16 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/simulation/multiplexor2x1_VHD.vhd
+Z17 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/simulation/multiplexor2x1_VHD.vhd
+l0
+L5 1
+V=60bk1lFKILKn_B0JjnJ`1
+!s100 f0N<L3Sag1?0fZzTUAi1E2
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/simulation/multiplexor2x1_VHD.vhd|
+!s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/simulation/multiplexor2x1_VHD.vhd|
+!i113 1
+R12
+R13
+Abehav
+R14
+R1
+R2
+R3
+DEx4 work 18 multiplexor2x1_vhd 0 22 =60bk1lFKILKn_B0JjnJ`1
+!i122 3
+l15
+L8 25
+VP3?]@26NE3QaYOAZZR=9k2
+!s100 `1o1`F?=dL_Dia<g[TcGF2
+R7
+32
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ4_when/simulation/multiplexor2x1_VHD.vhd|
+!i113 1
+R12
+R13

@@ -15,12 +15,12 @@ architecture ffd_arch of ffd is
     begin
         process(clk) is
             begin
-					if rising_edge(clk) then
-						if rst = '1' then
-							q <= '0';
-						elsif enable = '1' then
-                     q <= d;
-                  end if;
-               end if;
+				if rising_edge(clk) then
+					if rst = '1' then
+						q <= '0';
+					elsif enable = '1' then
+                        q <= d;
+                    end if;
+                end if;
             end process;
     end ffd_arch; 

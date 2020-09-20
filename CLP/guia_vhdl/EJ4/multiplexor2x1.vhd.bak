@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity multiplexor2x1 is
+    port(
+        input0_in: in std_logic;
+        input1_in: in std_logic;
+        sel_in: in std_logic;
+        out_out: out std_logic
+    );
+
+end entity;
+
+architecture behav of multiplexor2x1 is
+    begin
+        if sel_in = '0' then
+            out_out <= input0_in;
+        else
+            out_out <= input1_in;
+        end if;
+                
+    end architecture;

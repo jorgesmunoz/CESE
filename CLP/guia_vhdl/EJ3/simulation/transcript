@@ -1,1 +1,25 @@
 # Loading project SumRes4bit_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project multiplexor2x1_simu
+# Load canceled
+# Compile of multiplexor2x1.vhd was successful.
+# Compile of multiplexor2x1_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of multiplexor2x1.vhd was successful.
+# Compile of multiplexor2x1_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.multiplexor2x1_vhd
+# vsim work.multiplexor2x1_vhd 
+# Start time: 11:21:43 on Sep 20,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplexor2x1_vhd(behav)
+# Loading work.multiplexor2x1(behav)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/multiplexor2x1/*
+# ** UI-Msg: (vish-4014) No objects found matching '/multiplexor2x1/*'.
+add wave sim:/multiplexor2x1_vhd/*
+run 3us
