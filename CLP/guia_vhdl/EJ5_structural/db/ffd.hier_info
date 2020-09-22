@@ -1,0 +1,9 @@
+|ffd
+d => aux_a.IN0
+d => aux_b.IN0
+clk => aux_a.IN1
+clk => aux_b.IN1
+q <> q
+qb <> qb
+
+

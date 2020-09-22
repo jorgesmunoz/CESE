@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "signal_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "signal_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "signal_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_in",
+					"strict" : false
+				},
+				{
+					"name" : "signal_in[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

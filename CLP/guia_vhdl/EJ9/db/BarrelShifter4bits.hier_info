@@ -1,0 +1,29 @@
+|BarrelShifter4bits
+in_AB[0] => word_out.DATAA
+in_AB[0] => word_out.DATAB
+in_AB[0] => word_out.DATAB
+in_AB[0] => word_out.DATAB
+in_AB[1] => word_out.DATAA
+in_AB[1] => word_out.DATAB
+in_AB[1] => word_out.DATAB
+in_AB[1] => word_out.DATAB
+in_CD[0] => word_out.DATAA
+in_CD[0] => word_out.DATAB
+in_CD[0] => word_out.DATAB
+in_CD[0] => word_out.DATAB
+in_CD[1] => word_out.DATAB
+in_CD[1] => word_out.DATAA
+in_CD[1] => word_out.DATAB
+in_CD[1] => word_out.DATAB
+sel_0 => BarrelShifter.IN0
+sel_0 => BarrelShifter.IN0
+sel_0 => BarrelShifter.IN0
+sel_1 => BarrelShifter.IN1
+sel_1 => BarrelShifter.IN1
+sel_1 => BarrelShifter.IN1
+word_out[0] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+word_out[1] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+word_out[2] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+word_out[3] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

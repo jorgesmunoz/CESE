@@ -1,0 +1,29 @@
+|BarrelShifter4bits
+word_in[0] => word_out.DATAA
+word_in[0] => word_out.DATAB
+word_in[0] => word_out.DATAB
+word_in[0] => word_out.DATAB
+word_in[1] => word_out.DATAB
+word_in[1] => word_out.DATAA
+word_in[1] => word_out.DATAB
+word_in[1] => word_out.DATAB
+word_in[2] => word_out.DATAA
+word_in[2] => word_out.DATAB
+word_in[2] => word_out.DATAB
+word_in[2] => word_out.DATAB
+word_in[3] => word_out.DATAA
+word_in[3] => word_out.DATAB
+word_in[3] => word_out.DATAB
+word_in[3] => word_out.DATAB
+sel_in[0] => Equal0.IN1
+sel_in[0] => Equal1.IN1
+sel_in[0] => Equal2.IN0
+sel_in[1] => Equal0.IN0
+sel_in[1] => Equal1.IN0
+sel_in[1] => Equal2.IN1
+word_out[0] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+word_out[1] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+word_out[2] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+word_out[3] <= word_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

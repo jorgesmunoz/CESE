@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Sep 20 15:26:52 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : reg4bits_serie
+Top-level Entity Name : reg4bits_serie
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 0
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

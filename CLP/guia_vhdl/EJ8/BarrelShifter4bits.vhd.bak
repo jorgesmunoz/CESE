@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity BarrelShifter4bits is
+	generic(
+        N: natural := 4;
+        M: natural := 2
+	);
+	port(
+		word_in: in std_logic_vector(N-1 downto 0);
+		sel_in: in std_logic_vector(M-1 downto 0);		
+		word_out: out std_logic_vector(N-1 downto 0)
+	);
+end;
+
+architecture BarrelShifter4bits_arch of BarrelShifter4bits is
+    begin
+        BarrelShifter: process (word_in, sel_in) is
+            begin
+                case sel_in is
+                    when "00" => word_out <= word_in;
+                    when "01" => word_out <= word_in(2 downto 0) & word_in(3);
+                    when "10" => word_out <= word_in(1 downto 0) & word_in(3 downto 2);
+                    when "11" => word_out <= word_in(0) & word_in(3 downto 1);
+                    when others => word_out <= "XXXX";
+                end case;
+            end process;
+end architecture;

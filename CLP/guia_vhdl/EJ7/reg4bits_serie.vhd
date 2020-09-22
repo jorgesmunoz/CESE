@@ -4,39 +4,40 @@ use ieee.numeric_std.all;
 
 entity reg4bits_serie is
 	generic(
-		N: natural := 4
+		N: natural := 2
 	);
 	port(
-		input_in: in std_logic;
 		clk_in: in std_logic;
-		enable_in: in std_logic;
-		rst_in: in std_logic;
-		output_out: out std_logic
+		--enable_in: in std_logic;
+		--rst_in: in std_logic;
+		signal_in: in std_logic_vector(N-1 downto 0);
+		signal_out: out std_logic_vector(N-1 downto 0)
 	);
 end;
 
 architecture reg4bits_arch of reg4bits_serie is
 	signal auxVector: std_logic_vector(N downto 0);
-	signal clk_int: std_logic;
+	--signal clk_int: std_logic;
 
 	begin
-		auxVector(0) <= input_in;
-		output_out <= auxVector(N);
-
-		reg4bits_gen: for i in 0 to N-1 generate
-			reg_inst: entity work.ffd
-				port map(
-					d => auxVector(i),
-					clk => clk_int,
-					rst => rst_in,
-					q => auxVector(i+1)
-				);
-		end generate;
 		
-		gate_inst: entity work.gate
-			port map(
-				clk_gate => clk_in,
-				enable => enable_in,
-				clk_out => clk_int	
-			);
+
+	-- process (signal_in)
+	-- begin
+	-- 	for i in 0 to N-1 loop
+	-- 		auxVector(i) <= signal_in(i);
+	-- 		signal_out(i) <= auxVector(i+1);
+	-- 	end loop;
+	-- end process;
+		
+		behavior: process (clk_in, signal_in) is
+			begin
+				if rising_edge(clk_in) then
+					--if rst_in = '1' then
+						signal_out <= signal_in;
+					--else
+					--	signal_out <= signal_in;
+					--end if;
+				end if;
+			end process;
 end;

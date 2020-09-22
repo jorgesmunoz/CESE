@@ -1,0 +1,9 @@
+|reg4bits_serie
+clk_in => signal_out[0]~reg0.CLK
+clk_in => signal_out[1]~reg0.CLK
+signal_in[0] => signal_out[0]~reg0.DATAIN
+signal_in[1] => signal_out[1]~reg0.DATAIN
+signal_out[0] <= signal_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+signal_out[1] <= signal_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
