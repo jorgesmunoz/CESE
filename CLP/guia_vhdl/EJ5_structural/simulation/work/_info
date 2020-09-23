@@ -1,0 +1,94 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation
+Effd
+Z0 w1600821329
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+Z3 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/simulation
+Z4 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/ffd.vhd
+Z5 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/ffd.vhd
+l0
+L4 1
+VcGGnHJSIhB9UBf2P9eHCa2
+!s100 iIe<>8^YT?S=jc2JH>dE50
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1600821379
+!i10b 1
+Z8 !s108 1600821379.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/ffd.vhd|
+Z10 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/ffd.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Affd_arch
+R1
+R2
+Z13 DEx4 work 3 ffd 0 22 cGGnHJSIhB9UBf2P9eHCa2
+!i122 10
+l17
+L12 12
+V5S_98A>TWkaM?g?DZPzC^3
+!s100 N83GWo354U2k5d=fMm6JV0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Effd_vhd
+Z14 w1600821376
+R1
+R2
+!i122 11
+R3
+Z15 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/simulation/ffd_VHD.vhd
+Z16 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/simulation/ffd_VHD.vhd
+l0
+L5 1
+VhJJV]eF8nnofaU3WnKcJ?1
+!s100 36`fV7Tz>Ld>5Q;bG]``N0
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/simulation/ffd_VHD.vhd|
+Z18 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ5_structural/simulation/ffd_VHD.vhd|
+!i113 1
+R11
+R12
+Affd_vhd_arch
+R13
+R1
+R2
+Z19 DEx4 work 7 ffd_vhd 0 22 hJJV]eF8nnofaU3WnKcJ?1
+!i122 11
+l14
+L8 17
+V1HhfX2eO?SVXCbeER>;Di0
+!s100 BYM`:FC2_T5X=gm]MMiSY2
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

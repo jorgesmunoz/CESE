@@ -1,1 +1,286 @@
 # Loading project BarrelShifter4bits_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project cont4bits_simu
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 3 errors.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# vsim work.cont4bits_vhd 
+# Start time: 21:18:10 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+run 3us
+quit -sim
+# End time: 21:24:00 on Sep 22,2020, Elapsed time: 0:05:50
+# Errors: 0, Warnings: 1
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project ffd_structural_simu
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd failed with 14 errors.
+# 2 compiles, 1 failed with 14 errors.
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd failed with 14 errors.
+# 2 compiles, 1 failed with 14 errors.
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ffd_vhd
+# vsim work.ffd_vhd 
+# Start time: 21:33:02 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ffd_vhd(ffd_vhd_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/ffd_vhd/*
+run 3us
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ffd.vhd was successful.
+# Compile of ffd_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ffd_vhd(ffd_vhd_arch)
+# Loading work.ffd(ffd_arch)
+# Warning in wave window restart: (vish-4014) No objects found matching '/ffd_vhd/qb_tb'. 
+run 3us
+quit -sim
+# End time: 21:36:57 on Sep 22,2020, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 1
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation/cont4bits_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project cont4bits_simu
+vsim work.cont4bits_vhd
+# vsim work.cont4bits_vhd 
+# Start time: 21:37:20 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+vsim work.cont4bits_vhd
+# End time: 21:44:25 on Sep 22,2020, Elapsed time: 0:07:05
+# Errors: 0, Warnings: 1
+# vsim work.cont4bits_vhd 
+# Start time: 21:44:25 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# End time: 21:50:12 on Sep 22,2020, Elapsed time: 0:05:47
+# Errors: 0, Warnings: 2
+# vsim work.cont4bits_vhd 
+# Start time: 21:50:12 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# End time: 21:56:40 on Sep 22,2020, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 2
+# vsim work.cont4bits_vhd 
+# Start time: 21:56:40 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd failed with 3 errors.
+# Compile of cont4bits.vhd failed with 1 errors.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of cont4bits.vhd failed with 1 errors.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 1 failed with 1 error.
+vsim work.cont4bits_vhd
+# End time: 22:03:58 on Sep 22,2020, Elapsed time: 0:07:18
+# Errors: 0, Warnings: 4
+# vsim work.cont4bits_vhd 
+# Start time: 22:03:58 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# ** Error: (vsim-13) Recompile work.cont4bits(cont1bit_arch) because work.cont4bits has changed.
+# Load interrupted
+# Error loading design
+# End time: 22:03:58 on Sep 22,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+# Unrecognized dataset prefix: sim
+add wave sim:/cont4bits_vhd/*
+# Unrecognized dataset prefix: sim
+add wave sim:/cont4bits_vhd/*
+# Unrecognized dataset prefix: sim
+# Compile of cont4bits.vhd failed with 1 errors.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# vsim work.cont4bits_vhd 
+# Start time: 22:07:35 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# End time: 22:12:32 on Sep 22,2020, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 4
+# vsim work.cont4bits_vhd 
+# Start time: 22:12:32 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# End time: 22:19:29 on Sep 22,2020, Elapsed time: 0:06:57
+# Errors: 0, Warnings: 2
+# vsim work.cont4bits_vhd 
+# Start time: 22:19:29 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# ** Error: (vsim-13) Recompile work.cont4bits(cont1bit_arch) because work.ffd has changed.
+# Load interrupted
+# Error loading design
+# End time: 22:19:29 on Sep 22,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+# Unrecognized dataset prefix: sim
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# vsim work.cont4bits_vhd 
+# Start time: 22:20:09 on Sep 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/cont4bits_vhd/*
+run 3us
+# End time: 22:22:18 on Sep 22,2020, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 2

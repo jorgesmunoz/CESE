@@ -1,0 +1,16 @@
+|cont4bits
+enable_in => aux_d.IN1
+enable_in => and_out.IN1
+clk_in => ffd:cont_inst0.clk
+and_out <= and_out.DB_MAX_OUTPUT_PORT_TYPE
+cont_out <= ffd:cont_inst0.q
+
+
+|cont4bits|ffd:cont_inst0
+d => aux_a.IN0
+d => aux_b.IN0
+clk => aux_a.IN1
+clk => aux_b.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

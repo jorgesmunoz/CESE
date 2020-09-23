@@ -1,0 +1,67 @@
+# Loading project cont4bits_simu
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# vsim work.cont4bits_vhd 
+# Start time: 19:38:45 on Sep 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+add wave sim:/cont4bits_vhd/*
+run 3us
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 3 errors.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 3 errors.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of cont4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of cont4bits_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.cont4bits_vhd
+# End time: 19:55:46 on Sep 23,2020, Elapsed time: 0:17:01
+# Errors: 0, Warnings: 11
+# vsim work.cont4bits_vhd 
+# Start time: 19:55:46 on Sep 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bits_vhd(cont4bits_vhd_arch)
+# Loading work.cont4bits(cont1bit_arch)
+# Loading work.ffd(ffd_arch)
+add wave sim:/cont4bits_vhd/*
+run 3us

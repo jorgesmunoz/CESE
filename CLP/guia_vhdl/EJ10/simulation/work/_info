@@ -1,0 +1,142 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ8/simulation
+Econt4bits
+Z0 w1600901522
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 93
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/cont4bits.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/cont4bits.vhd
+l0
+L5 1
+V@VK;GRd<<^1ZU7TLPlH790
+!s100 QCK2Dk]T7ZOdbDFYkl1;U3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1600901740
+!i10b 1
+Z9 !s108 1600901740.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/cont4bits.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/cont4bits.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Acont1bit_arch
+Z14 DEx4 work 3 ffd 0 22 V>FgPCRCX?8Fge4zz^@;11
+R1
+R2
+R3
+Z15 DEx4 work 9 cont4bits 0 22 @VK;GRd<<^1ZU7TLPlH790
+!i122 93
+l21
+L14 19
+VMGMHQIiRfbzdFa;e[6Kna1
+!s100 XRZ88CoHR5kiVTm7?PT9V0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econt4bits_vhd
+Z16 w1600901737
+R1
+R2
+R3
+!i122 95
+R4
+Z17 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation/cont4bits_VHD.vhd
+Z18 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation/cont4bits_VHD.vhd
+l0
+L5 1
+V14K=7DNEzH`Vi^9J<oGg^2
+!s100 PJZKizVdAESzX<D=hN?9Z3
+R7
+32
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation/cont4bits_VHD.vhd|
+Z20 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation/cont4bits_VHD.vhd|
+!i113 1
+R12
+R13
+Acont4bits_vhd_arch
+R15
+R1
+R2
+R3
+Z21 DEx4 work 13 cont4bits_vhd 0 22 14K=7DNEzH`Vi^9J<oGg^2
+!i122 95
+l14
+L8 19
+V09BMTKzNY7JDU0?bHC[?72
+!s100 2]A;UcV=16_CfdM=ajbSl0
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Effd
+Z22 w1600823848
+R1
+R2
+R3
+!i122 94
+R4
+Z23 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/ffd.vhd
+Z24 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/ffd.vhd
+l0
+L5 1
+VV>FgPCRCX?8Fge4zz^@;11
+!s100 EKFo_Qm6@3id?4i8[3kWV0
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/ffd.vhd|
+Z26 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/ffd.vhd|
+!i113 1
+R12
+R13
+Affd_arch
+R1
+R2
+R3
+R14
+!i122 94
+l19
+L13 14
+VkjPjTgTYYd`]g=nJEEgN62
+!s100 BM[:@S_QJRZ3i5UR?g0Sc3
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
