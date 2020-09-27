@@ -1,0 +1,186 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ10/simulation
+Ecounter4bits
+Z0 w1601144979
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 28
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/counter4bits.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/counter4bits.vhd
+l0
+L5 1
+Vd4;RzjA3K_Yz]I4mYZ<f02
+!s100 8h=H;1l7ni89]WEAOlbzZ1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1601145023
+!i10b 1
+Z9 !s108 1601145023.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/counter4bits.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/counter4bits.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Acounter4bits_arch
+Z14 DEx4 work 15 serial_register 0 22 RcB`lOGG4eY9kOUh4CSPz2
+R1
+R2
+R3
+Z15 DEx4 work 12 counter4bits 0 22 d4;RzjA3K_Yz]I4mYZ<f02
+!i122 28
+l23
+L17 26
+Vf4PUbhE?kBHWh[6=6e:>Z1
+!s100 lk>^Oa`><TWH^EAV>>8G41
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounter_vhd
+Z16 w1601136299
+R1
+R2
+R3
+!i122 31
+R4
+Z17 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation/counter_VHD.vhd
+Z18 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation/counter_VHD.vhd
+l0
+L5 1
+V@UEa3P?W4C_B3:CcM0Ee[1
+!s100 6zS`mhnbTiD@44?JGmQ=10
+R7
+32
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation/counter_VHD.vhd|
+Z20 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation/counter_VHD.vhd|
+!i113 1
+R12
+R13
+Acounter_vhd_arch
+R15
+R1
+R2
+R3
+Z21 DEx4 work 11 counter_vhd 0 22 @UEa3P?W4C_B3:CcM0Ee[1
+!i122 31
+l16
+Z22 L8 24
+Z23 Vz2Hd;iX8Q=z0bSa3gzgCH3
+Z24 !s100 V3POAmKnB?KZ7MJMa37SV0
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Effd
+Z25 w1600989780
+R1
+R2
+R3
+!i122 29
+R4
+Z26 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/ffd.vhd
+Z27 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/ffd.vhd
+l0
+L5 1
+V4];Amnc[25LGC=FOTL0YZ2
+!s100 CIcnMF?Pod5G?3iV<NbQf3
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/ffd.vhd|
+Z29 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/ffd.vhd|
+!i113 1
+R12
+R13
+Affd_arch
+R1
+R2
+R3
+Z30 DEx4 work 3 ffd 0 22 4];Amnc[25LGC=FOTL0YZ2
+!i122 29
+l16
+L14 14
+VRDiMlfIl=^[^V?[DKRD]m2
+!s100 ADfAIdm3EOTYW9l=HPlBa2
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Eserial_register
+Z31 w1601144729
+R1
+R2
+R3
+!i122 30
+R4
+Z32 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd
+Z33 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd
+l0
+L5 1
+VRcB`lOGG4eY9kOUh4CSPz2
+!s100 6K4LL0>:5bdUO:`87=amk1
+R7
+32
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd|
+Z35 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd|
+!i113 1
+R12
+R13
+Aserial_register_arch
+R30
+R1
+R2
+R3
+R14
+!i122 30
+l18
+L17 13
+VCl``h6K6M1:R=B]gOJl;R3
+!s100 TZX4KlFBm1NELcXX[EUQZ0
+R7
+32
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13

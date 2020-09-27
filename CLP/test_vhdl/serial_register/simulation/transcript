@@ -1,0 +1,118 @@
+# Loading project counter4bits_simu
+# Compile of counter4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serial_register.vhd was successful.
+# Compile of counter_VHD.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.counter_vhd
+# vsim work.counter_vhd 
+# Start time: 14:23:29 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_vhd(counter_vhd_arch)
+# Loading work.counter4bits(counter4bits_arch)
+# Loading work.serial_register(serial_register_arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (8) for port "/counter_vhd/counter4bits_inst/register_inst/d_reg_in".
+#    Time: 0 ps  Iteration: 0  Instance: /counter_vhd/counter4bits_inst/register_inst File: /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 14:23:32 on Sep 26,2020, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 2
+vsim work.counter_vhd(counter_vhd_arch)
+# vsim work.counter_vhd(counter_vhd_arch) 
+# Start time: 14:30:21 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_vhd(counter_vhd_arch)
+# Loading work.counter4bits(counter4bits_arch)
+# Loading work.serial_register(serial_register_arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (8) for port "/counter_vhd/counter4bits_inst/register_inst/d_reg_in".
+#    Time: 0 ps  Iteration: 0  Instance: /counter_vhd/counter4bits_inst/register_inst File: /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 14:30:21 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of counter4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serial_register.vhd was successful.
+# Compile of counter_VHD.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.counter_vhd
+# vsim work.counter_vhd 
+# Start time: 14:36:54 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_vhd(counter_vhd_arch)
+# Loading work.counter4bits(counter4bits_arch)
+# Loading work.serial_register(serial_register_arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (8) for port "/counter_vhd/counter4bits_inst/register_inst/d_reg_in".
+#    Time: 0 ps  Iteration: 0  Instance: /counter_vhd/counter4bits_inst/register_inst File: /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 14:36:54 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sumNb_simu
+# Compile of sum1b.vhd was successful.
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.sumnb_tb
+# vsim work.sumnb_tb 
+# Start time: 14:54:52 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sumnb_tb(sumnb_tb_arq)
+# Loading work.sumnb(sumnb_arq)
+# Loading work.sum1b(sum1b_arq)
+quit -sim
+# End time: 15:20:21 on Sep 26,2020, Elapsed time: 0:25:29
+# Errors: 0, Warnings: 6
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation/counter4bits_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project counter4bits_simu
+vsim work.counter_vhd
+# vsim work.counter_vhd 
+# Start time: 15:20:40 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_vhd(counter_vhd_arch)
+# Loading work.counter4bits(counter4bits_arch)
+# Loading work.serial_register(serial_register_arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (8) for port "/counter_vhd/counter4bits_inst/register_inst/d_reg_in".
+#    Time: 0 ps  Iteration: 0  Instance: /counter_vhd/counter4bits_inst/register_inst File: /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/serial_register.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 15:20:40 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of counter4bits.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serial_register.vhd was successful.
+# Compile of counter_VHD.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.counter_vhd
+# vsim work.counter_vhd 
+# Start time: 15:30:30 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_vhd(counter_vhd_arch)
+# Loading work.counter4bits(counter4bits_arch)
+# Loading work.serial_register(serial_register_arch)
+# Loading work.ffd(ffd_arch)
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 8 (7 downto 0). Right is 4 (3 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /counter_vhd/counter4bits_inst/line__38 File: /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/counter4bits.vhd
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 15:30:30 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2

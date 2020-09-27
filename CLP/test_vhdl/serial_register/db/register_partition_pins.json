@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q_counter_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q_counter_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q_counter_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q_counter_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enable_counter_in",
+					"strict" : false
+				},
+				{
+					"name" : "rst_counter_in",
+					"strict" : false
+				},
+				{
+					"name" : "clk_counter_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+|counterBCD1dig
+enable_in => counter.OUTPUTSELECT
+enable_in => counter.OUTPUTSELECT
+enable_in => counter.OUTPUTSELECT
+enable_in => counter.OUTPUTSELECT
+rst_in => counter.OUTPUTSELECT
+rst_in => counter.OUTPUTSELECT
+rst_in => counter.OUTPUTSELECT
+rst_in => counter.OUTPUTSELECT
+clk_in => counter[0].CLK
+clk_in => counter[1].CLK
+clk_in => counter[2].CLK
+clk_in => counter[3].CLK
+q_out[0] <= counter[0].DB_MAX_OUTPUT_PORT_TYPE
+q_out[1] <= counter[1].DB_MAX_OUTPUT_PORT_TYPE
+q_out[2] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+q_out[3] <= counter[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

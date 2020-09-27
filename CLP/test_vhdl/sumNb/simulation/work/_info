@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/serial_register/simulation
+Esum1b
+Z0 w1601142717
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/simulation
+Z4 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sum1b.vhd
+Z5 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sum1b.vhd
+l0
+L4 1
+VNhe72=U:>jL^DZVfPFcR22
+!s100 [9hL[kO`3^1UREP<nb:I_1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1601142883
+!i10b 1
+Z8 !s108 1601142883.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sum1b.vhd|
+Z10 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sum1b.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asum1b_arq
+R1
+R2
+Z13 DEx4 work 5 sum1b 0 22 Nhe72=U:>jL^DZVfPFcR22
+!i122 0
+l15
+L14 7
+VhD58hI1^ZJQm7NXHPhgho1
+!s100 2UZPWB0l45Eh=M<5d]05e2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esumnb
+Z14 w1601142692
+R1
+R2
+!i122 1
+R3
+Z15 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sumNb.vhd
+Z16 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sumNb.vhd
+l0
+L4 1
+VaMmL=E3BT``=^4RAINUIM1
+!s100 0oSBMS<XbIFOASmlWDZgX2
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sumNb.vhd|
+Z18 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/sumNb.vhd|
+!i113 1
+R11
+R12
+Asumnb_arq
+R13
+R1
+R2
+Z19 DEx4 work 5 sumnb 0 22 aMmL=E3BT``=^4RAINUIM1
+!i122 1
+l19
+L17 19
+VeJd`oWoOY1anW1?Xh_WAL0
+!s100 njS`[GcXVJSo^^U9k;LdJ0
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Esumnb_tb
+Z20 w1601142880
+R1
+R2
+!i122 2
+R3
+Z21 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/simulation/sumNb_tb.vhd
+Z22 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/simulation/sumNb_tb.vhd
+l0
+L4 1
+VeKVLT;d7kl[jX<E`HAFG72
+!s100 [N>[76VIboCElcmlFl`[C0
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/simulation/sumNb_tb.vhd|
+!s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/simulation/sumNb_tb.vhd|
+!i113 1
+R11
+R12
+Asumnb_tb_arq
+R19
+R1
+R2
+DEx4 work 8 sumnb_tb 0 22 eKVLT;d7kl[jX<E`HAFG72
+!i122 2
+l18
+L7 30
+VDOO:mR`Y::]oXh6bBYe8O3
+!s100 ^RklL1=mP8G3oJ_N=gA7L0
+R6
+32
+R7
+!i10b 1
+R8
+R23
+Z24 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/test_vhdl/sumNb/simulation/sumNb_tb.vhd|
+!i113 1
+R11
+R12

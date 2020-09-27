@@ -1,0 +1,162 @@
+# Loading project sumNb_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project counterNbit_simu
+# Compile of counterNbit.vhd was successful.
+# Compile of counterNbit_VHD.vhd failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of counterNbit.vhd was successful.
+# Compile of counterNbit_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of counterNbit.vhd was successful.
+# Compile of counterNbit_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of counterNbit.vhd was successful.
+# Compile of counterNbit_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.counternbit_vhd
+# vsim work.counternbit_vhd 
+# Start time: 19:20:41 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counternbit_vhd(counternbit_vhd_arch)
+# Loading work.counternbit(counternbit_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/counternbit/*
+# ** UI-Msg: (vish-4014) No objects found matching '/counternbit/*'.
+add wave sim:/counternbit_vhd/*
+run 3us
+# Compile of counterNbit.vhd was successful.
+# Compile of counterNbit_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of counterNbit.vhd was successful.
+# Compile of counterNbit_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counternbit_vhd(counternbit_vhd_arch)
+# Loading work.counternbit(counternbit_arch)
+run 1us
+quit -sim
+# End time: 19:39:19 on Sep 26,2020, Elapsed time: 0:18:38
+# Errors: 0, Warnings: 1
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project counterNbit_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ12/simulation/counterNbit_simu
+# Loading project counterNbit_simu
+# Compile of counterNbit.vhd failed with 3 errors.
+# Compile of serial_register.vhd was successful.
+# Compile of counterN_VHD.vhd was successful.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of counterNbit.vhd was successful.
+# Compile of serial_register.vhd was successful.
+# Compile of counterN_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.counternbit_vhd
+# vsim work.counternbit_vhd 
+# Start time: 19:46:00 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counternbit_vhd(counternbit_vhd_arch)
+# Loading work.counternbit(counternbit_arch)
+# Loading work.serial_register(serial_register_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/countern_vhd/*
+# ** UI-Msg: (vish-4014) No objects found matching '/countern_vhd/*'.
+add wave sim:/counterN_VHD/*
+# ** UI-Msg: (vish-4014) No objects found matching '/counterN_VHD/*'.
+quit -sim
+# End time: 19:46:57 on Sep 26,2020, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 10
+# Compile of counterNbit.vhd was successful.
+# Compile of serial_register.vhd was successful.
+# Compile of counterN_VHD.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+vsim work.counternbit_vhd
+# vsim work.counternbit_vhd 
+# Start time: 19:48:30 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counternbit_vhd(counternbit_vhd_arch)
+# Loading work.counternbit(counternbit_arch)
+# Loading work.serial_register(serial_register_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/counterNbit_VHD/*
+run 3 us
+quit -sim
+# End time: 21:46:42 on Sep 26,2020, Elapsed time: 1:58:12
+# Errors: 0, Warnings: 2
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project generador_simu
+# Compile of generador.vhd was successful.
+# Compile of generador_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of generador.vhd was successful.
+# Compile of generador_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of generador.vhd was successful.
+# Compile of generador_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.generador_vhd
+# vsim work.generador_vhd 
+# Start time: 21:52:16 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.generador_vhd(generador_vhd_arch)
+# Loading work.generador(generador_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/generador_vhd/*
+run 1us
+quit -sim
+# End time: 23:15:40 on Sep 26,2020, Elapsed time: 1:23:24
+# Errors: 0, Warnings: 8
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project counterBCD1dig_simu
+# Compile of counterBCD1dig.vhd was successful.
+# Compile of counterBCD1dig_VHD.vhd failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of counterBCD1dig.vhd was successful.
+# Compile of counterBCD1dig_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.counterbcd1dig_vhd
+# vsim work.counterbcd1dig_vhd 
+# Start time: 23:21:41 on Sep 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counterbcd1dig_vhd(counterbcd1dig_vhd_arch)
+# Loading work.counterbcd1dig(counterbcd1dig_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/conterBCD1dig_vhd/*
+# ** UI-Msg: (vish-4014) No objects found matching '/conterBCD1dig_vhd/*'.
+add wave sim:/counterBCD1dig_vhd/*
+run 1us
+# Compile of counterBCD1dig.vhd was successful.
+# Compile of counterBCD1dig_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counterbcd1dig_vhd(counterbcd1dig_vhd_arch)
+# Loading work.counterbcd1dig(counterbcd1dig_arch)
+run 1us
+# End time: 23:28:53 on Sep 26,2020, Elapsed time: 0:07:12
+# Errors: 0, Warnings: 1

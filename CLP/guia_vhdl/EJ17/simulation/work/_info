@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ12/simulation
+Egenerador
+Z0 w1601167531
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/generador.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/generador.vhd
+l0
+L5 1
+Vz_Sa4fTP00m_JzVde8XZ:2
+!s100 77^W]57h1FVT:f`mI6KhY3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1601167930
+!i10b 1
+Z9 !s108 1601167930.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/generador.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/generador.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Agenerador_arch
+R1
+R2
+R3
+Z14 DEx4 work 9 generador 0 22 z_Sa4fTP00m_JzVde8XZ:2
+!i122 4
+l19
+L16 23
+VBW6>AigonOgR8BiKUSDg43
+!s100 7VjLoT?DQoSIU6D@75dIo3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egenerador_vhd
+Z15 w1601167925
+R1
+R2
+R3
+!i122 5
+R4
+Z16 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation/generador_VHD.vhd
+Z17 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation/generador_VHD.vhd
+l0
+L5 1
+VH3U]lGXFM8Ee1izQG=G]o0
+!s100 mCdDGoh1HJ^7:i^L]HM?I1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation/generador_VHD.vhd|
+!s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation/generador_VHD.vhd|
+!i113 1
+R12
+R13
+Agenerador_vhd_arch
+R14
+R1
+R2
+R3
+DEx4 work 13 generador_vhd 0 22 H3U]lGXFM8Ee1izQG=G]o0
+!i122 5
+l14
+L8 20
+V>n5JSo7;TXm_o3Y`;_lWo1
+!s100 hKU9ihZgY>ed0X^Ceg`b:3
+R7
+32
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation/generador_VHD.vhd|
+!i113 1
+R12
+R13

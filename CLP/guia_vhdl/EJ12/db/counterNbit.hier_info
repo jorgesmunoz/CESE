@@ -1,0 +1,30 @@
+|counterNbit
+enable_counter_in => aux_and[0].IN1
+enable_counter_in => aux_d[0].IN1
+clk_counter_in => serial_register:register_inst.clk_in
+rst_counter_in => serial_register:register_inst.rst_in
+q_counter_out[0] <= serial_register:register_inst.q_out[0]
+q_counter_out[1] <= serial_register:register_inst.q_out[1]
+q_counter_out[2] <= serial_register:register_inst.q_out[2]
+q_counter_out[3] <= serial_register:register_inst.q_out[3]
+
+
+|counterNbit|serial_register:register_inst
+d_in[0] => q_out.DATAA
+d_in[1] => q_out.DATAA
+d_in[2] => q_out.DATAA
+d_in[3] => q_out.DATAA
+clk_in => q_out[0]~reg0.CLK
+clk_in => q_out[1]~reg0.CLK
+clk_in => q_out[2]~reg0.CLK
+clk_in => q_out[3]~reg0.CLK
+rst_in => q_out.OUTPUTSELECT
+rst_in => q_out.OUTPUTSELECT
+rst_in => q_out.OUTPUTSELECT
+rst_in => q_out.OUTPUTSELECT
+q_out[0] <= q_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_out[1] <= q_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_out[2] <= q_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_out[3] <= q_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

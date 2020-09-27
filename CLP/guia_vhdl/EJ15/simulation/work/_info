@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ17/simulation
+Ecounterbcd1dig
+Z0 w1601173491
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/counterBCD1dig.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/counterBCD1dig.vhd
+l0
+L5 1
+VRzU8J]me=mFz^A7h:T05X1
+!s100 0Yf_mNf__jIlDGlX]W3U>3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1601173553
+!i10b 1
+Z9 !s108 1601173553.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/counterBCD1dig.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/counterBCD1dig.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Acounterbcd1dig_arch
+R1
+R2
+R3
+Z14 DEx4 work 14 counterbcd1dig 0 22 RzU8J]me=mFz^A7h:T05X1
+!i122 4
+l20
+L17 21
+VVbY@ocW2TgoS`kgM>]3Zc1
+!s100 QBF^RUMzVe]T7XhEgd6g?0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounterbcd1dig_vhd
+Z15 w1601173286
+R1
+R2
+R3
+!i122 5
+R4
+Z16 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/simulation/counterBCD1dig_VHD.vhd
+Z17 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/simulation/counterBCD1dig_VHD.vhd
+l0
+L5 1
+VlCaPkm;__I^f5@lXBQH8i3
+!s100 8DT6^YdiJ?@e5jYBOThe:1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/simulation/counterBCD1dig_VHD.vhd|
+Z19 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/EJ15/simulation/counterBCD1dig_VHD.vhd|
+!i113 1
+R12
+R13
+Acounterbcd1dig_vhd_arch
+R14
+R1
+R2
+R3
+Z20 DEx4 work 18 counterbcd1dig_vhd 0 22 lCaPkm;__I^f5@lXBQH8i3
+!i122 5
+l15
+Z21 L8 24
+Z22 V_8^8I=l]W20KkJ03Z53=z1
+Z23 !s100 fN`RQlQ1HX8kBBh=76H<>3
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13

@@ -1,0 +1,58 @@
+|counter4bits
+enable_counter_in => aux_and[0].IN1
+enable_counter_in => aux_d[0].IN1
+clk_counter_in => serial_register:register_inst.clk_reg_in
+rst_counter_in => serial_register:register_inst.rst_reg_in
+q_counter_out[0] <= serial_register:register_inst.q_reg_out[0]
+q_counter_out[1] <= serial_register:register_inst.q_reg_out[1]
+q_counter_out[2] <= serial_register:register_inst.q_reg_out[2]
+q_counter_out[3] <= serial_register:register_inst.q_reg_out[3]
+
+
+|counter4bits|serial_register:register_inst
+d_reg_in[0] => ffd:ffd_generate:0:ffd_inst.d_in
+d_reg_in[1] => ffd:ffd_generate:1:ffd_inst.d_in
+d_reg_in[2] => ffd:ffd_generate:2:ffd_inst.d_in
+d_reg_in[3] => ffd:ffd_generate:3:ffd_inst.d_in
+clk_reg_in => ffd:ffd_generate:0:ffd_inst.clk_in
+clk_reg_in => ffd:ffd_generate:1:ffd_inst.clk_in
+clk_reg_in => ffd:ffd_generate:2:ffd_inst.clk_in
+clk_reg_in => ffd:ffd_generate:3:ffd_inst.clk_in
+rst_reg_in => ffd:ffd_generate:0:ffd_inst.rst_in
+rst_reg_in => ffd:ffd_generate:1:ffd_inst.rst_in
+rst_reg_in => ffd:ffd_generate:2:ffd_inst.rst_in
+rst_reg_in => ffd:ffd_generate:3:ffd_inst.rst_in
+q_reg_out[0] <= ffd:ffd_generate:0:ffd_inst.q_out
+q_reg_out[1] <= ffd:ffd_generate:1:ffd_inst.q_out
+q_reg_out[2] <= ffd:ffd_generate:2:ffd_inst.q_out
+q_reg_out[3] <= ffd:ffd_generate:3:ffd_inst.q_out
+
+
+|counter4bits|serial_register:register_inst|ffd:\ffd_generate:0:ffd_inst
+d_in => q_out.DATAA
+clk_in => q_out~reg0.CLK
+rst_in => q_out.OUTPUTSELECT
+q_out <= q_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter4bits|serial_register:register_inst|ffd:\ffd_generate:1:ffd_inst
+d_in => q_out.DATAA
+clk_in => q_out~reg0.CLK
+rst_in => q_out.OUTPUTSELECT
+q_out <= q_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter4bits|serial_register:register_inst|ffd:\ffd_generate:2:ffd_inst
+d_in => q_out.DATAA
+clk_in => q_out~reg0.CLK
+rst_in => q_out.OUTPUTSELECT
+q_out <= q_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter4bits|serial_register:register_inst|ffd:\ffd_generate:3:ffd_inst
+d_in => q_out.DATAA
+clk_in => q_out~reg0.CLK
+rst_in => q_out.OUTPUTSELECT
+q_out <= q_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
