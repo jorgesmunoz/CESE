@@ -12,6 +12,7 @@ personas.append(p1)
 personas.append(p2)
 personas.append(p3)
 
+#Se pone el nombre de la clase (Persona) para llamar a un metodo estatico
 Persona.print_persona(personas)
 
 print("El mayor es: {}".format(Persona.get_mayor(personas)))

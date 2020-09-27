@@ -33,6 +33,8 @@ class Persona:
         else:
             return False
 
+    #El siguiente metodo es static ya que tiene que ver con la clase
+    #y no con un objeto en particular (en este caso el objeto persona)
     @staticmethod
     def print_persona(personas):
         for p in personas:
