@@ -71,15 +71,10 @@ void fsm_buttonUpdate( debounce_t* buttonStruct )
             /* CHECK TRANSITION CONDITIONS */
             //Semaforo entregado por la ISR Fall de tecla
             if((xSemaphoreTake( buttonStruct->xSemaphoreISR, portMAX_DELAY )) == pdTRUE){
-                //fsm_buttonPressed(buttonStruct);
                 buttonStruct->buttonState = FALLING;
                 printf("hola:%d", buttonStruct->timePressed);
             }
         
-            // xQueueReceive( buttonStruct->xQueueISR, &buttonStruct->button, 0 );
-            // if( !gpioRead( buttonStruct->button ) ){
-            //     buttonStruct->buttonState = FALLING;
-            // }
             break;
 
         case FALLING:
@@ -99,14 +94,9 @@ void fsm_buttonUpdate( debounce_t* buttonStruct )
 			/* CHECK TRANSITION CONDITIONS */
             //Semaforo entregado por la ISR Rise de tecla
             if((xSemaphoreTake( buttonStruct->xSemaphoreISR, portMAX_DELAY )) == pdTRUE){
-                //fsm_buttonPressed(buttonStruct);
                 buttonStruct->buttonState = RISING;
             }
-            // if( gpioRead( buttonStruct->button ) )
-			// {
-			// 	buttonStruct->buttonState = RISING;
-			// }
-			break;
+            break;
 
         case RISING:
             /* CHECK TRANSITION CONDITIONS */
