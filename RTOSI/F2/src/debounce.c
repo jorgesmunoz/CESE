@@ -49,7 +49,8 @@ void fsm_buttonPressed( debounce_t* buttonStruct ){
 void fsm_buttonReleased( debounce_t* buttonStruct ){
 	buttonStruct->timeUp = xTaskGetTickCount();
 	buttonStruct->timePressed = buttonStruct->timeUp - buttonStruct->timeDown;
-    xQueueSend(buttonStruct->xQueue, &buttonStruct->timePressed, portMAX_DELAY);
+    buttonStruct->State = ON;
+    //xSemaphoreGive(buttonStruct->xSemaphore);
 }
 
 void fsm_buttonError( debounce_t* buttonStruct ){
@@ -72,7 +73,6 @@ void fsm_buttonUpdate( debounce_t* buttonStruct )
             //Semaforo entregado por la ISR Fall de tecla
             if((xSemaphoreTake( buttonStruct->xSemaphoreISR, portMAX_DELAY )) == pdTRUE){
                 buttonStruct->buttonState = FALLING;
-                printf("hola:%d", buttonStruct->timePressed);
             }
         
             break;

@@ -35,7 +35,7 @@ int main( void ){
    for(int i = 0; i < TOTAL_TECLAS; i++){
       buttonStruct[i].button = NUM_BUTTON + i;
       buttonStruct[i].led = NUM_LED + i;
-      buttonStruct[i].xQueue = xQueueCreate(QUEUE_LEN, SIZEOF_LEN);
+      buttonStruct[i].xSemaphore = xSemaphoreCreateBinary();
       buttonStruct[i].xSemaphoreISR = xSemaphoreCreateBinary();
    }
 

@@ -18,8 +18,10 @@ typedef struct {
     TickType_t timePressed;
     TickType_t timeUp;
     TickType_t timeDown;
+
+    uint8_t State;
     
-    QueueHandle_t xQueue;
+    SemaphoreHandle_t xSemaphore;
     SemaphoreHandle_t xSemaphoreISR;
     
     uint8_t contFalling;

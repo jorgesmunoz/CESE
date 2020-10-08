@@ -55,7 +55,11 @@ void led_task( void* taskParmPtr )
    // ----- Task repeat for ever -------------------------
    while(TRUE) {
       
-      xQueueReceive( buttonStructure->xQueue, &xPeriod, 0 );
+      //xSemaphoreTake( buttonStructure->xSemaphore, 0 );
+      if(buttonStructure->State){
+         xPeriod = buttonStructure->timePressed;
+         buttonStructure->State = OFF;
+      }
       
       xLastWakeTime = xTaskGetTickCount();
       gpioWrite(buttonStructure->led, ON);
