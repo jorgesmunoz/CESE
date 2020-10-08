@@ -36,31 +36,39 @@ extern SemaphoreHandle_t xSemaphore;
 
 //Funcion para reiniciar ciclo
 void clear_cycle(debounce_t* buttonStruct){
+    taskENTER_CRITICAL();    
 	buttonStruct->timePressed = 0;
+    taskEXIT_CRITICAL();
 }
 
 //Funcion que lee los ticks al momento de pulsarse la tecla
 void fsm_buttonPressed( debounce_t* buttonStruct ){
+	taskENTER_CRITICAL();    
 	buttonStruct->timeDown = xTaskGetTickCount();
+    taskEXIT_CRITICAL();
 }
 
 //Funcion que lee los ticks al momento de liberarse la tecla
 //Luego mide la diferencia de tiempo
 void fsm_buttonReleased( debounce_t* buttonStruct ){
-	buttonStruct->timeUp = xTaskGetTickCount();
+	taskENTER_CRITICAL();    
+    buttonStruct->timeUp = xTaskGetTickCount();
 	buttonStruct->timePressed = buttonStruct->timeUp - buttonStruct->timeDown;
     buttonStruct->State = ON;
+    taskEXIT_CRITICAL();
     //xSemaphoreGive(buttonStruct->xSemaphore);
 }
 
 void fsm_buttonError( debounce_t* buttonStruct ){
+    taskENTER_CRITICAL();    
     buttonStruct->buttonState = UP;
+    taskEXIT_CRITICAL();
 }
 
 void fsm_buttonInit( debounce_t* buttonStruct ){
-    buttonStruct->contFalling = 0;
-    buttonStruct->contRising = 0;
+    taskENTER_CRITICAL();
     buttonStruct->buttonState = UP;
+    taskEXIT_CRITICAL();
 }
 
 // FSM Update Sate Function
