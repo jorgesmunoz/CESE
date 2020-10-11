@@ -27,7 +27,7 @@ def get_users():
     
     if request.method == 'GET':
         response = app.response_class(
-            response=json.dumps(alldData),
+            response=json.dumps(allData),
             status=200,
             mimetype='application/json'
         )
