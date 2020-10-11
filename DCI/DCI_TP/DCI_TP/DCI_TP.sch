@@ -1,0 +1,1419 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Trabajo Final DCI - VS1053"
+Date "2020-10-10"
+Rev "1.0"
+Comp "Jorge Salvador Muñoz"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DCI_TP-rescue:CRYSTALHC49U-V-adafruit Q1
+U 1 1 5F81BB0B
+P 4850 4400
+F 0 "Q1" V 4804 4498 50  0000 L CNN
+F 1 "12.288Mhz" V 4895 4498 50  0000 L CNN
+F 2 "SparkFun-FreqCtrl:HC49U-V" H 4880 4550 20  0001 C CNN
+F 3 "" H 4850 4400 50  0001 C CNN
+	1    4850 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-PowerIC:V_REG_LDOSMD U1
+U 1 1 5F81E828
+P 2500 1150
+F 0 "U1" H 2450 1615 50  0000 C CNN
+F 1 "V_REG_LDOSMD" H 2450 1524 50  0000 C CNN
+F 2 "SparkFun-Sensors:SOT23-5" H 2530 1300 20  0001 C CNN
+F 3 "" H 2500 1150 50  0001 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-DigitalIC:VS1033_1053SMD VS1053
+U 1 1 5F82306A
+P 7400 4350
+F 0 "VS1053" H 7350 5931 50  0000 C CNN
+F 1 "VS1033_1053SMD" H 7350 5840 50  0000 C CNN
+F 2 "SparkFun-DigitalIC:LQFP-48" H 7430 4500 20  0001 C CNN
+F 3 "" H 7400 4350 50  0001 C CNN
+	1    7400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerIC:V_REG_LDOSMD U2
+U 1 1 5F829B48
+P 2500 2200
+F 0 "U2" H 2450 2665 50  0000 C CNN
+F 1 "V_REG_LDOSMD" H 2450 2574 50  0000 C CNN
+F 2 "SparkFun-Sensors:SOT23-5" H 2530 2350 20  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerIC:V_REG_LDOSMD U3
+U 1 1 5F82AF91
+P 2500 3200
+F 0 "U3" H 2450 3665 50  0000 C CNN
+F 1 "V_REG_LDOSMD" H 2450 3574 50  0000 C CNN
+F 2 "SparkFun-Sensors:SOT23-5" H 2530 3350 20  0001 C CNN
+F 3 "" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-LED:LED10MM LED1
+U 1 1 5F82B9DA
+P 1400 1650
+F 0 "LED1" H 1478 1646 50  0000 L CNN
+F 1 "Power" H 1478 1555 50  0000 L CNN
+F 2 "SparkFun-LED:LED10MM" H 1430 1800 20  0001 C CNN
+F 3 "" H 1400 1650 50  0001 C CNN
+	1    1400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DCI_TP-rescue:JUMPER-2SMD-NC-SparkFun-Retired JP4
+U 1 1 5F836C01
+P 1050 6550
+F 0 "JP4" H 1203 6588 50  0000 L CNN
+F 1 "JUMPER" H 1203 6497 50  0000 L CNN
+F 2 "SparkFun-Capacitors:SJ_2S" H 1080 6700 20  0001 C CNN
+F 3 "" H 1050 6550 50  0001 C CNN
+	1    1050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:M10LOCK JP1
+U 1 1 5F83B976
+P 1000 4550
+F 0 "JP1" H 1208 5015 50  0000 C CNN
+F 1 "M10\"" H 1208 4924 50  0000 C CNN
+F 2 "SparkFun-Connectors:1X10_LOCK" H 1030 4700 20  0001 C CNN
+F 3 "" H 1000 4550 60  0000 C CNN
+	1    1000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:M10LOCK JP2
+U 1 1 5F83F494
+P 10750 1550
+F 0 "JP2" H 10722 1254 50  0000 R CNN
+F 1 "M10\"" H 10722 1345 50  0000 R CNN
+F 2 "SparkFun-Connectors:1X10_LOCK" H 10780 1700 20  0001 C CNN
+F 3 "" H 10750 1550 60  0000 C CNN
+	1    10750 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Connectors:M07 JP3
+U 1 1 5F8425F6
+P 6850 1200
+F 0 "JP3" H 6622 1254 50  0000 R CNN
+F 1 "M07" H 6622 1345 50  0000 R CNN
+F 2 "SparkFun-Connectors:1X07" H 6880 1350 20  0001 C CNN
+F 3 "" H 6850 1200 60  0000 C CNN
+	1    6850 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R6
+U 1 1 5F84C541
+P 5250 4400
+F 0 "R6" V 5204 4468 50  0000 L CNN
+F 1 "1M" V 5295 4468 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 5280 4550 20  0001 C CNN
+F 3 "" H 5250 4400 50  0001 C CNN
+	1    5250 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C13
+U 1 1 5F850C60
+P 4500 4150
+F 0 "C13" V 4255 4200 50  0000 C CNN
+F 1 "18pF" V 4346 4200 50  0000 C CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 4530 4300 20  0001 C CNN
+F 3 "" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C14
+U 1 1 5F851590
+P 4500 4650
+F 0 "C14" V 4255 4700 50  0000 C CNN
+F 1 "18pF" V 4346 4700 50  0000 C CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 4530 4800 20  0001 C CNN
+F 3 "" H 4500 4650 50  0001 C CNN
+	1    4500 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4150 4850 4150
+Wire Wire Line
+	5250 4150 5250 4200
+Wire Wire Line
+	4850 4300 4850 4150
+Connection ~ 4850 4150
+Wire Wire Line
+	4850 4150 5250 4150
+Wire Wire Line
+	4700 4650 4850 4650
+Wire Wire Line
+	5250 4650 5250 4600
+Wire Wire Line
+	4850 4500 4850 4650
+Connection ~ 4850 4650
+Wire Wire Line
+	4850 4650 5250 4650
+Wire Wire Line
+	4400 4650 4200 4650
+Wire Wire Line
+	4200 4650 4200 4150
+Wire Wire Line
+	4200 4150 4400 4150
+Wire Wire Line
+	6300 4350 5700 4350
+Wire Wire Line
+	5700 4350 5700 4150
+Wire Wire Line
+	5700 4150 5250 4150
+Connection ~ 5250 4150
+Wire Wire Line
+	6300 4450 5700 4450
+Wire Wire Line
+	5700 4450 5700 4650
+Wire Wire Line
+	5700 4650 5250 4650
+Connection ~ 5250 4650
+Wire Wire Line
+	6700 5750 6700 5900
+Wire Wire Line
+	6700 5900 6800 5900
+Wire Wire Line
+	7200 5900 7200 5750
+Wire Wire Line
+	7100 5750 7100 5900
+Connection ~ 7100 5900
+Wire Wire Line
+	7100 5900 7200 5900
+Wire Wire Line
+	7000 5750 7000 5900
+Wire Wire Line
+	7000 5900 7100 5900
+Wire Wire Line
+	6800 5750 6800 5900
+Text Label 4200 4850 0    50   ~ 0
+GND
+Wire Wire Line
+	4200 4650 4200 4850
+Connection ~ 4200 4650
+Text Label 900  6800 0    50   ~ 0
+GND
+Text Label 1250 6800 0    50   ~ 0
+AGND
+Wire Wire Line
+	1150 6650 1150 6800
+Wire Wire Line
+	1150 6800 1250 6800
+Wire Wire Line
+	1050 6650 1050 6800
+Wire Wire Line
+	1050 6800 900  6800
+Text Label 1500 4450 0    50   ~ 0
+MICN
+Text Label 1500 4650 0    50   ~ 0
+DREQ
+Text Label 1500 4950 0    50   ~ 0
+BSYNC
+Text Label 1500 4350 0    50   ~ 0
+MICP
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R1
+U 1 1 5F87B932
+P 1400 1200
+F 0 "R1" V 1354 1268 50  0000 L CNN
+F 1 "330" V 1445 1268 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 1430 1350 20  0001 C CNN
+F 3 "" H 1400 1200 50  0001 C CNN
+	1    1400 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 950  1850 950 
+Wire Wire Line
+	1400 950  1400 1000
+Wire Wire Line
+	1400 1400 1400 1550
+$Comp
+L SparkFun-Aesthetics:GND #GND01
+U 1 1 5F87FA4C
+P 1400 2100
+F 0 "#GND01" H 1400 2100 50  0001 L BNN
+F 1 "GND" H 1400 2026 50  0000 C CNN
+F 2 "" H 1400 2100 50  0001 C CNN
+F 3 "" H 1400 2100 50  0001 C CNN
+	1    1400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1350 1850 1350
+Wire Wire Line
+	1850 1350 1850 950 
+Connection ~ 1850 950 
+Wire Wire Line
+	1850 950  1400 950 
+Connection ~ 1850 1350
+Wire Wire Line
+	1850 1350 1850 2000
+Wire Wire Line
+	2100 2000 1850 2000
+Connection ~ 1850 2000
+Wire Wire Line
+	1850 2000 1850 2400
+Wire Wire Line
+	2100 2400 1850 2400
+Connection ~ 1850 2400
+Wire Wire Line
+	2100 3400 1850 3400
+Wire Wire Line
+	1850 2400 1850 3000
+Wire Wire Line
+	2100 3000 1850 3000
+Connection ~ 1850 3000
+Wire Wire Line
+	1850 3000 1850 3400
+Text Label 2050 1600 0    50   ~ 0
+GND
+Text Label 2000 2650 0    50   ~ 0
+AGND
+Text Label 2050 3650 0    50   ~ 0
+GND
+Wire Wire Line
+	2100 1150 2000 1150
+Wire Wire Line
+	2000 1150 2000 1600
+Wire Wire Line
+	2000 1600 2200 1600
+Wire Wire Line
+	2100 2200 2000 2200
+Wire Wire Line
+	2000 2200 2000 2650
+Wire Wire Line
+	2000 2650 2200 2650
+Wire Wire Line
+	2100 3200 2000 3200
+Wire Wire Line
+	2000 3200 2000 3650
+Wire Wire Line
+	2000 3650 2200 3650
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C8
+U 1 1 5F8B25E8
+P 3950 1200
+F 0 "C8" H 4058 1296 50  0000 L CNN
+F 1 "0.1uF" H 4058 1205 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 3980 1350 20  0001 C CNN
+F 3 "" H 3950 1200 50  0001 C CNN
+	1    3950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 950  3200 950 
+Wire Wire Line
+	3950 950  3950 1000
+Wire Wire Line
+	3200 1000 3200 950 
+Connection ~ 3200 950 
+Wire Wire Line
+	3200 950  3950 950 
+Wire Wire Line
+	3950 1350 3950 1300
+Wire Wire Line
+	3200 1300 3200 1350
+Connection ~ 3200 1350
+Wire Wire Line
+	3200 1350 3950 1350
+Text Label 3300 1600 0    50   ~ 0
+GND
+Wire Wire Line
+	3450 1600 3200 1600
+Wire Wire Line
+	3200 1600 3200 1350
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C9
+U 1 1 5F8C5363
+P 3950 2250
+F 0 "C9" H 4058 2346 50  0000 L CNN
+F 1 "0.1uF" H 4058 2255 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 3980 2400 20  0001 C CNN
+F 3 "" H 3950 2250 50  0001 C CNN
+	1    3950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2000 3200 2000
+Wire Wire Line
+	3950 2000 3950 2050
+Wire Wire Line
+	3200 2050 3200 2000
+Connection ~ 3200 2000
+Wire Wire Line
+	3200 2000 3950 2000
+Wire Wire Line
+	3950 2400 3950 2350
+Wire Wire Line
+	3200 2350 3200 2400
+Connection ~ 3200 2400
+Wire Wire Line
+	3200 2400 3950 2400
+Text Label 3300 2650 0    50   ~ 0
+AGND
+Wire Wire Line
+	3450 2650 3200 2650
+Wire Wire Line
+	3200 2650 3200 2400
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C10
+U 1 1 5F8C8D10
+P 3950 3250
+F 0 "C10" H 4058 3346 50  0000 L CNN
+F 1 "0.1uF" H 4058 3255 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 3980 3400 20  0001 C CNN
+F 3 "" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3000 3200 3000
+Wire Wire Line
+	3950 3000 3950 3050
+Wire Wire Line
+	3200 3050 3200 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 3950 3000
+Wire Wire Line
+	3950 3400 3950 3350
+Wire Wire Line
+	3200 3350 3200 3400
+Connection ~ 3200 3400
+Wire Wire Line
+	3200 3400 3950 3400
+Text Label 3300 3650 0    50   ~ 0
+GND
+Wire Wire Line
+	3450 3650 3200 3650
+Wire Wire Line
+	3200 3650 3200 3400
+NoConn ~ 2800 1350
+NoConn ~ 2800 2400
+NoConn ~ 2800 3400
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R7
+U 1 1 5F8D923F
+P 5300 2000
+F 0 "R7" V 5254 2068 50  0000 L CNN
+F 1 "100k" V 5345 2068 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 5330 2150 20  0001 C CNN
+F 3 "" H 5300 2000 50  0001 C CNN
+	1    5300 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R8
+U 1 1 5F8DA6A0
+P 5600 2000
+F 0 "R8" V 5554 2068 50  0000 L CNN
+F 1 "100k" V 5645 2068 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 5630 2150 20  0001 C CNN
+F 3 "" H 5600 2000 50  0001 C CNN
+	1    5600 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R9
+U 1 1 5F8DAF50
+P 5900 2000
+F 0 "R9" V 5854 2068 50  0000 L CNN
+F 1 "100k" V 5945 2068 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 5930 2150 20  0001 C CNN
+F 3 "" H 5900 2000 50  0001 C CNN
+	1    5900 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R10
+U 1 1 5F8DB7B2
+P 6200 2000
+F 0 "R10" V 6154 2068 50  0000 L CNN
+F 1 "100k" V 6245 2068 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 6230 2150 20  0001 C CNN
+F 3 "" H 6200 2000 50  0001 C CNN
+	1    6200 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 1100 5300 1800
+Text Label 6300 1100 0    50   ~ 0
+GPIO6
+Wire Wire Line
+	5600 1200 5600 1800
+Text Label 6300 1200 0    50   ~ 0
+GPIO7
+Wire Wire Line
+	5900 1400 5900 1800
+Wire Wire Line
+	6200 1500 6200 1800
+Text Label 6300 1400 0    50   ~ 0
+GPIO5
+Wire Wire Line
+	6200 1500 6650 1500
+Wire Wire Line
+	5900 1400 6650 1400
+Wire Wire Line
+	5600 1200 6650 1200
+Wire Wire Line
+	5300 1100 6650 1100
+Text Label 6300 1500 0    50   ~ 0
+GPIO4
+Text Label 6300 1600 0    50   ~ 0
+AGND
+Text Label 6300 1300 0    50   ~ 0
+VCO
+Text Label 6300 1000 0    50   ~ 0
+LINEIN
+Wire Wire Line
+	6650 1000 6300 1000
+Wire Wire Line
+	6650 1300 6300 1300
+Wire Wire Line
+	6650 1600 6300 1600
+Wire Wire Line
+	7600 5750 7600 5900
+Wire Wire Line
+	7600 5900 7700 5900
+Wire Wire Line
+	7900 5900 7900 5750
+Wire Wire Line
+	7800 5750 7800 5900
+Connection ~ 7800 5900
+Wire Wire Line
+	7800 5900 7900 5900
+Wire Wire Line
+	7700 5750 7700 5900
+Connection ~ 7700 5900
+Wire Wire Line
+	7700 5900 7800 5900
+Text Label 7800 6050 0    50   ~ 0
+AGND
+Wire Wire Line
+	7900 6050 7800 6050
+Wire Wire Line
+	7800 6050 7800 5900
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R2
+U 1 1 5F93E050
+P 2250 4250
+F 0 "R2" V 2204 4318 50  0000 L CNN
+F 1 "100k" V 2295 4318 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 2280 4400 20  0001 C CNN
+F 3 "" H 2250 4250 50  0001 C CNN
+	1    2250 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R5
+U 1 1 5F93EE31
+P 2700 4250
+F 0 "R5" V 2654 4318 50  0000 L CNN
+F 1 "100k" V 2745 4318 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 2730 4400 20  0001 C CNN
+F 3 "" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R3
+U 1 1 5F940202
+P 2250 5750
+F 0 "R3" V 2204 5818 50  0000 L CNN
+F 1 "100k" V 2295 5818 50  0000 L CNN
+F 2 "SparkFun-Resistors:0402-RES" H 2280 5900 20  0001 C CNN
+F 3 "" H 2250 5750 50  0001 C CNN
+	1    2250 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R4
+U 1 1 5F9409D4
+P 2600 5750
+F 0 "R4" V 2554 5818 50  0000 L CNN
+F 1 "100k" V 2645 5818 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 2630 5900 20  0001 C CNN
+F 3 "" H 2600 5750 50  0001 C CNN
+	1    2600 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 4550 2250 4450
+Wire Wire Line
+	1400 5150 2700 5150
+Wire Wire Line
+	2700 5150 2700 4450
+Wire Wire Line
+	1400 4850 2250 4850
+Wire Wire Line
+	2250 4850 2250 5550
+Wire Wire Line
+	1400 4750 2600 4750
+Wire Wire Line
+	2600 4750 2600 5550
+Text Label 2800 3900 0    50   ~ 0
+IOVDD
+Wire Wire Line
+	2700 4050 2700 3900
+Wire Wire Line
+	2700 3900 3000 3900
+Wire Wire Line
+	2250 4050 2250 3900
+Wire Wire Line
+	2250 3900 2700 3900
+Connection ~ 2700 3900
+Text Label 1500 4550 0    50   ~ 0
+RESET
+Text Label 1500 4750 0    50   ~ 0
+GPIO2
+Text Label 1500 4850 0    50   ~ 0
+GPIO3
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C16
+U 1 1 5F99D290
+P 5650 7050
+F 0 "C16" H 5758 7146 50  0000 L CNN
+F 1 "100nF" H 5758 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 5680 7200 20  0001 C CNN
+F 3 "" H 5650 7050 50  0001 C CNN
+	1    5650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C17
+U 1 1 5F99E63F
+P 6000 7050
+F 0 "C17" H 6108 7146 50  0000 L CNN
+F 1 "100nF" H 6108 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 6030 7200 20  0001 C CNN
+F 3 "" H 6000 7050 50  0001 C CNN
+	1    6000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C18
+U 1 1 5F9A88FB
+P 6350 7050
+F 0 "C18" H 6458 7146 50  0000 L CNN
+F 1 "100nF" H 6458 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 6380 7200 20  0001 C CNN
+F 3 "" H 6350 7050 50  0001 C CNN
+	1    6350 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7150 5650 7300
+Wire Wire Line
+	5650 7300 6000 7300
+Wire Wire Line
+	6350 7300 6350 7150
+Wire Wire Line
+	6000 7150 6000 7300
+Connection ~ 6000 7300
+Wire Wire Line
+	6000 7300 6350 7300
+Wire Wire Line
+	5650 6850 5650 6750
+Wire Wire Line
+	5650 6750 6000 6750
+Wire Wire Line
+	6350 6750 6350 6850
+Wire Wire Line
+	6000 6850 6000 6750
+Connection ~ 6000 6750
+Wire Wire Line
+	6000 6750 6350 6750
+Text Label 5650 6600 0    50   ~ 0
+IOVDD
+Wire Wire Line
+	5800 6600 5650 6600
+Wire Wire Line
+	5650 6600 5650 6750
+Connection ~ 5650 6750
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C7
+U 1 1 5F9DB685
+P 3750 7050
+F 0 "C7" H 3858 7146 50  0000 L CNN
+F 1 "100nF" H 3858 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 3780 7200 20  0001 C CNN
+F 3 "" H 3750 7050 50  0001 C CNN
+	1    3750 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C11
+U 1 1 5F9DB68B
+P 4100 7050
+F 0 "C11" H 4208 7146 50  0000 L CNN
+F 1 "100nF" H 4208 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 4130 7200 20  0001 C CNN
+F 3 "" H 4100 7050 50  0001 C CNN
+	1    4100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C12
+U 1 1 5F9DB691
+P 4450 7050
+F 0 "C12" H 4558 7146 50  0000 L CNN
+F 1 "100nF" H 4558 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 4480 7200 20  0001 C CNN
+F 3 "" H 4450 7050 50  0001 C CNN
+	1    4450 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7150 3750 7300
+Wire Wire Line
+	4450 7300 4450 7150
+Wire Wire Line
+	3750 6850 3750 6750
+Wire Wire Line
+	3750 6750 4100 6750
+Wire Wire Line
+	4450 6750 4450 6850
+Wire Wire Line
+	4100 6850 4100 6750
+Connection ~ 4100 6750
+Wire Wire Line
+	4100 6750 4450 6750
+Text Label 3750 6600 0    50   ~ 0
+CVDD
+Wire Wire Line
+	3900 6600 3750 6600
+Wire Wire Line
+	3750 6600 3750 6750
+Connection ~ 3750 6750
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C1
+U 1 1 5F9E6598
+P 2350 7050
+F 0 "C1" H 2458 7146 50  0000 L CNN
+F 1 "100nF" H 2458 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 2380 7200 20  0001 C CNN
+F 3 "" H 2350 7050 50  0001 C CNN
+	1    2350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C2
+U 1 1 5F9E659E
+P 2700 7050
+F 0 "C2" H 2808 7146 50  0000 L CNN
+F 1 "100nF" H 2808 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 2730 7200 20  0001 C CNN
+F 3 "" H 2700 7050 50  0001 C CNN
+	1    2700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C3
+U 1 1 5F9E65A4
+P 3050 7050
+F 0 "C3" H 3158 7146 50  0000 L CNN
+F 1 "100nF" H 3158 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 3080 7200 20  0001 C CNN
+F 3 "" H 3050 7050 50  0001 C CNN
+	1    3050 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 7150 2350 7300
+Wire Wire Line
+	2350 7300 2700 7300
+Wire Wire Line
+	3050 7300 3050 7150
+Wire Wire Line
+	2700 7150 2700 7300
+Connection ~ 2700 7300
+Wire Wire Line
+	2700 7300 3050 7300
+Wire Wire Line
+	2350 6850 2350 6750
+Wire Wire Line
+	2350 6750 2700 6750
+Wire Wire Line
+	3050 6750 3050 6850
+Wire Wire Line
+	2700 6850 2700 6750
+Connection ~ 2700 6750
+Wire Wire Line
+	2700 6750 3050 6750
+Text Label 2750 7400 0    50   ~ 0
+AGND
+Wire Wire Line
+	2950 7400 2700 7400
+Wire Wire Line
+	2700 7400 2700 7300
+Text Label 2350 6600 0    50   ~ 0
+AVDD
+Wire Wire Line
+	2500 6600 2350 6600
+Wire Wire Line
+	2350 6600 2350 6750
+Connection ~ 2350 6750
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C15
+U 1 1 5FA25250
+P 4800 7050
+F 0 "C15" H 4908 7146 50  0000 L CNN
+F 1 "100nF" H 4908 7055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 4830 7200 20  0001 C CNN
+F 3 "" H 4800 7050 50  0001 C CNN
+	1    4800 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6850 4800 6750
+Wire Wire Line
+	4800 6750 4450 6750
+Connection ~ 4450 6750
+Wire Wire Line
+	4800 7150 4800 7300
+Wire Wire Line
+	4800 7300 4450 7300
+$Comp
+L SparkFun-Aesthetics:GND #GND03
+U 1 1 5FA38551
+P 4100 7550
+F 0 "#GND03" H 4100 7550 50  0001 L BNN
+F 1 "GND" H 4100 7476 50  0000 C CNN
+F 2 "" H 4100 7550 50  0001 C CNN
+F 3 "" H 4100 7550 50  0001 C CNN
+	1    4100 7550
+	1    0    0    -1  
+$EndComp
+Text Label 6850 2650 0    50   ~ 0
+IOVDD
+Wire Wire Line
+	7000 2950 7000 2650
+Wire Wire Line
+	7000 2650 7050 2650
+Wire Wire Line
+	6900 2950 6900 2650
+Wire Wire Line
+	6900 2650 7000 2650
+Connection ~ 7000 2650
+Wire Wire Line
+	6800 2950 6800 2650
+Wire Wire Line
+	6800 2650 6900 2650
+Connection ~ 6900 2650
+Text Label 7400 2650 0    50   ~ 0
+CVDD
+Wire Wire Line
+	7500 2950 7500 2650
+Wire Wire Line
+	7500 2650 7600 2650
+Wire Wire Line
+	7200 2950 7200 2650
+Wire Wire Line
+	7200 2650 7300 2650
+Connection ~ 7500 2650
+Wire Wire Line
+	7300 2950 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7300 2650 7400 2650
+Wire Wire Line
+	7400 2950 7400 2650
+Connection ~ 7400 2650
+Wire Wire Line
+	7400 2650 7500 2650
+Text Label 7800 2650 0    50   ~ 0
+AVDD
+Wire Wire Line
+	7900 2950 7900 2650
+Wire Wire Line
+	7900 2650 7950 2650
+Wire Wire Line
+	7700 2950 7700 2650
+Wire Wire Line
+	7700 2650 7800 2650
+Connection ~ 7900 2650
+Wire Wire Line
+	7800 2950 7800 2650
+Connection ~ 7800 2650
+Wire Wire Line
+	7800 2650 7900 2650
+Text Label 6050 3550 0    50   ~ 0
+SO
+Text Label 6050 3650 0    50   ~ 0
+SI
+Text Label 6050 3750 0    50   ~ 0
+SCLK
+Text Label 6050 3850 0    50   ~ 0
+CS
+Text Label 6050 3950 0    50   ~ 0
+BSYNC
+Text Label 6050 4050 0    50   ~ 0
+DREQ
+Text Label 6050 4150 0    50   ~ 0
+RESET
+Text Label 6050 4250 0    50   ~ 0
+IOVDD
+Text Label 6050 4550 0    50   ~ 0
+VCO
+Text Label 6050 4650 0    50   ~ 0
+GPIO2
+Text Label 6050 4750 0    50   ~ 0
+GPIO3
+Text Label 6050 4850 0    50   ~ 0
+GPIO6
+Text Label 6050 4950 0    50   ~ 0
+GPIO7
+Wire Wire Line
+	6050 3550 6300 3550
+Wire Wire Line
+	6050 3650 6300 3650
+Wire Wire Line
+	6050 3750 6300 3750
+Wire Wire Line
+	6050 3850 6300 3850
+Wire Wire Line
+	6050 3950 6300 3950
+Wire Wire Line
+	6050 4050 6300 4050
+Wire Wire Line
+	6050 4150 6300 4150
+Wire Wire Line
+	6050 4250 6300 4250
+Wire Wire Line
+	6050 4550 6300 4550
+Wire Wire Line
+	6050 4950 6300 4950
+Wire Wire Line
+	6050 4850 6300 4850
+Wire Wire Line
+	6050 4750 6300 4750
+Wire Wire Line
+	6050 4650 6300 4650
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R11
+U 1 1 5FB64CEA
+P 8500 1550
+F 0 "R11" V 8454 1618 50  0000 L CNN
+F 1 "20" V 8545 1618 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 8530 1700 20  0001 C CNN
+F 3 "" H 8500 1550 50  0001 C CNN
+	1    8500 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R12
+U 1 1 5FB64CF0
+P 8800 1550
+F 0 "R12" V 8754 1618 50  0000 L CNN
+F 1 "10" V 8845 1618 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 8830 1700 20  0001 C CNN
+F 3 "" H 8800 1550 50  0001 C CNN
+	1    8800 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R13
+U 1 1 5FB64CF6
+P 9100 1550
+F 0 "R13" V 9054 1618 50  0000 L CNN
+F 1 "20" V 9145 1618 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 9130 1700 20  0001 C CNN
+F 3 "" H 9100 1550 50  0001 C CNN
+	1    9100 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R16
+U 1 1 5FBA1F91
+P 9550 2150
+F 0 "R16" V 9504 2218 50  0000 L CNN
+F 1 "100k" V 9595 2218 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 9580 2300 20  0001 C CNN
+F 3 "" H 9550 2150 50  0001 C CNN
+	1    9550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R17
+U 1 1 5FBA1F97
+P 9850 2150
+F 0 "R17" V 9804 2218 50  0000 L CNN
+F 1 "100k" V 9895 2218 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 9880 2300 20  0001 C CNN
+F 3 "" H 9850 2150 50  0001 C CNN
+	1    9850 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R14
+U 1 1 5FBBFC54
+P 9150 4050
+F 0 "R14" H 9150 4255 50  0000 C CNN
+F 1 "470" H 9150 4164 50  0000 C CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 9180 4200 20  0001 C CNN
+F 3 "" H 9150 4050 50  0001 C CNN
+	1    9150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Passives:RESISTOR0402-RES R15
+U 1 1 5FBC0B43
+P 9150 4250
+F 0 "R15" H 9050 4300 50  0000 C CNN
+F 1 "470" H 9250 4300 50  0000 C CNN
+F 2 "SparkFun-Capacitors:0402-RES" H 9180 4400 20  0001 C CNN
+F 3 "" H 9150 4250 50  0001 C CNN
+	1    9150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 950  10350 950 
+Wire Wire Line
+	8800 1050 10350 1050
+Wire Wire Line
+	9100 1150 10350 1150
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C19
+U 1 1 5FCAF9DA
+P 8500 2100
+F 0 "C19" H 8300 2250 50  0000 L CNN
+F 1 "10nF" H 8300 2100 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 8530 2250 20  0001 C CNN
+F 3 "" H 8500 2100 50  0001 C CNN
+	1    8500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C20
+U 1 1 5FCAF9E0
+P 8800 2100
+F 0 "C20" H 8800 2300 50  0000 L CNN
+F 1 "47nF" H 8800 2200 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 8830 2250 20  0001 C CNN
+F 3 "" H 8800 2100 50  0001 C CNN
+	1    8800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C21
+U 1 1 5FCAF9E6
+P 9100 2100
+F 0 "C21" H 9208 2196 50  0000 L CNN
+F 1 "10nF" H 9208 2105 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 9130 2250 20  0001 C CNN
+F 3 "" H 9100 2100 50  0001 C CNN
+	1    9100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Aesthetics:GND #GND07
+U 1 1 5FCAF9FC
+P 9700 2700
+F 0 "#GND07" H 9700 2700 50  0001 L BNN
+F 1 "GND" H 9700 2626 50  0000 C CNN
+F 2 "" H 9700 2700 50  0001 C CNN
+F 3 "" H 9700 2700 50  0001 C CNN
+	1    9700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1350 8500 950 
+Wire Wire Line
+	8800 1050 8800 1350
+Wire Wire Line
+	9100 1150 9100 1350
+Wire Wire Line
+	8500 1750 8500 1900
+Wire Wire Line
+	8800 1750 8800 1900
+Wire Wire Line
+	9100 1750 9100 1900
+Text Label 9100 2550 0    50   ~ 0
+AGND
+Wire Wire Line
+	9200 2550 9100 2550
+Wire Wire Line
+	8500 2200 8500 2550
+Wire Wire Line
+	8800 2200 8800 2550
+Connection ~ 8800 2550
+Wire Wire Line
+	8800 2550 8500 2550
+Wire Wire Line
+	9100 2200 9100 2550
+Connection ~ 9100 2550
+Wire Wire Line
+	9100 2550 8800 2550
+Wire Wire Line
+	9550 2500 9550 2350
+Wire Wire Line
+	9850 2350 9850 2500
+Wire Wire Line
+	9550 1250 9550 1950
+Wire Wire Line
+	9850 1350 9850 1950
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C22
+U 1 1 5FE35A6B
+P 9300 4800
+F 0 "C22" H 9408 4896 50  0000 L CNN
+F 1 "0.1uF" H 9408 4805 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 9330 4950 20  0001 C CNN
+F 3 "" H 9300 4800 50  0001 C CNN
+	1    9300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C23
+U 1 1 5FE35A71
+P 9950 4800
+F 0 "C23" H 10058 4896 50  0000 L CNN
+F 1 "10nF" H 10058 4805 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 9980 4950 20  0001 C CNN
+F 3 "" H 9950 4800 50  0001 C CNN
+	1    9950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP0402-CAP C24
+U 1 1 5FE35A77
+P 10300 4800
+F 0 "C24" H 10408 4896 50  0000 L CNN
+F 1 "10nF" H 10408 4805 50  0000 L CNN
+F 2 "SparkFun-Capacitors:0402-CAP" H 10330 4950 20  0001 C CNN
+F 3 "" H 10300 4800 50  0001 C CNN
+	1    10300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 5050 10300 4900
+Wire Wire Line
+	9950 4900 9950 5050
+Connection ~ 9950 5050
+Wire Wire Line
+	9950 5050 10300 5050
+Wire Wire Line
+	9950 5200 9950 5050
+Text Label 10000 5200 0    50   ~ 0
+AGND
+Wire Wire Line
+	10200 5200 9950 5200
+Wire Wire Line
+	9350 4050 10300 4050
+Wire Wire Line
+	10300 4050 10300 4600
+Wire Wire Line
+	9350 4250 9950 4250
+Wire Wire Line
+	9950 4250 9950 4600
+Wire Wire Line
+	8400 4350 9300 4350
+Wire Wire Line
+	9300 4350 9300 4600
+Wire Wire Line
+	9300 4900 9300 5050
+Wire Wire Line
+	9300 5050 9950 5050
+Wire Wire Line
+	8400 4250 8950 4250
+Wire Wire Line
+	8400 4050 8950 4050
+Text Label 9850 4050 0    50   ~ 0
+MICP
+Text Label 9600 4250 0    50   ~ 0
+LINEIN
+Text Label 8650 3550 0    50   ~ 0
+RX
+Text Label 8650 3650 0    50   ~ 0
+TX
+Text Label 8650 3750 0    50   ~ 0
+LEFT
+Text Label 8650 3850 0    50   ~ 0
+RIGHT
+Text Label 8650 3950 0    50   ~ 0
+GBUF
+Text Label 8650 4650 0    50   ~ 0
+GPIO0
+Text Label 8650 4750 0    50   ~ 0
+GPIO1
+Text Label 8650 4850 0    50   ~ 0
+GPIO4
+Text Label 8650 4950 0    50   ~ 0
+GPIO5
+Text Label 8650 4150 0    50   ~ 0
+MICN
+Wire Wire Line
+	8400 4650 8650 4650
+Wire Wire Line
+	8400 4750 8650 4750
+Wire Wire Line
+	8400 4850 8650 4850
+Wire Wire Line
+	8400 4950 8650 4950
+Wire Wire Line
+	8400 4150 8650 4150
+Wire Wire Line
+	8400 3550 8650 3550
+Wire Wire Line
+	8400 3650 8650 3650
+Wire Wire Line
+	8400 3750 8650 3750
+Wire Wire Line
+	8400 3850 8650 3850
+Wire Wire Line
+	8400 3950 8650 3950
+Wire Wire Line
+	9550 1250 10350 1250
+Wire Wire Line
+	9850 1350 10350 1350
+Text Label 10100 1450 0    50   ~ 0
+SO
+Text Label 10100 1550 0    50   ~ 0
+SI
+Text Label 10100 1650 0    50   ~ 0
+SCLK
+Wire Wire Line
+	10100 1450 10350 1450
+Wire Wire Line
+	10100 1550 10350 1550
+Wire Wire Line
+	10100 1650 10350 1650
+Text Label 10100 1750 0    50   ~ 0
+CS
+Wire Wire Line
+	10100 1750 10350 1750
+Text Label 10100 950  0    50   ~ 0
+RIGHT
+Text Label 1550 5150 0    50   ~ 0
+RX
+Text Label 1550 5050 0    50   ~ 0
+TX
+Wire Wire Line
+	1400 4950 1700 4950
+Wire Wire Line
+	1400 5050 1700 5050
+Wire Wire Line
+	1400 4650 1700 4650
+Wire Wire Line
+	1400 4550 2250 4550
+Wire Wire Line
+	1400 4450 1700 4450
+Wire Wire Line
+	1400 4350 1700 4350
+Wire Wire Line
+	9550 2500 9700 2500
+Wire Wire Line
+	9700 2600 9700 2500
+Connection ~ 9700 2500
+Wire Wire Line
+	9700 2500 9850 2500
+Wire Wire Line
+	5600 2200 5600 2350
+Wire Wire Line
+	5600 2350 5300 2350
+Wire Wire Line
+	5900 2200 5900 2350
+Wire Wire Line
+	5900 2350 5600 2350
+Connection ~ 5600 2350
+Wire Wire Line
+	6200 2200 6200 2350
+Wire Wire Line
+	6200 2350 5900 2350
+Connection ~ 5900 2350
+Wire Wire Line
+	1400 1850 1400 2000
+Wire Wire Line
+	2250 5950 2250 6050
+Wire Wire Line
+	2600 5950 2600 6050
+Wire Wire Line
+	2600 6050 2250 6050
+Text Label 10100 850  0    50   ~ 0
+VCC
+Wire Wire Line
+	10100 850  10350 850 
+Text Label 4200 950  0    50   ~ 0
+IOVDD
+Text Label 4200 2000 0    50   ~ 0
+AVDD
+Text Label 4200 3000 0    50   ~ 0
+CVDD
+Wire Wire Line
+	4200 3000 3950 3000
+Connection ~ 3950 3000
+Wire Wire Line
+	4200 2000 3950 2000
+Connection ~ 3950 2000
+Wire Wire Line
+	4200 950  3950 950 
+Connection ~ 3950 950 
+Wire Wire Line
+	5300 2350 5300 2200
+Text Label 10100 1050 0    50   ~ 0
+GBUF
+Text Label 10100 1150 0    50   ~ 0
+LEFT
+Text Label 10100 1250 0    50   ~ 0
+GPIO1
+Text Label 10100 1350 0    50   ~ 0
+GPIO0
+Text Label 1200 950  0    50   ~ 0
+VCC
+Wire Wire Line
+	1200 950  1400 950 
+Connection ~ 1400 950 
+Wire Wire Line
+	4100 7150 4100 7300
+Wire Wire Line
+	3750 7300 4100 7300
+Connection ~ 4100 7300
+Wire Wire Line
+	4100 7300 4100 7450
+Wire Wire Line
+	4450 7300 4100 7300
+Connection ~ 4450 7300
+Wire Wire Line
+	6900 5750 6900 5900
+Wire Wire Line
+	6800 5900 6900 5900
+Connection ~ 6800 5900
+Connection ~ 6900 5900
+Wire Wire Line
+	7000 5900 6900 5900
+Connection ~ 7000 5900
+$Comp
+L SparkFun-Aesthetics:GND #GND0101
+U 1 1 5FBB6354
+P 5300 2600
+F 0 "#GND0101" H 5300 2600 50  0001 L BNN
+F 1 "GND" H 5300 2526 50  0000 C CNN
+F 2 "" H 5300 2600 50  0001 C CNN
+F 3 "" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2500 5300 2350
+Connection ~ 5300 2350
+$Comp
+L SparkFun-Aesthetics:GND #GND0103
+U 1 1 5FBC8DEC
+P 6000 7550
+F 0 "#GND0103" H 6000 7550 50  0001 L BNN
+F 1 "GND" H 6000 7476 50  0000 C CNN
+F 2 "" H 6000 7550 50  0001 C CNN
+F 3 "" H 6000 7550 50  0001 C CNN
+	1    6000 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7450 6000 7300
+Wire Wire Line
+	6900 6000 6900 5900
+$Comp
+L SparkFun-Aesthetics:GND #GND0102
+U 1 1 5FBEFC17
+P 2250 6250
+F 0 "#GND0102" H 2250 6250 50  0001 L BNN
+F 1 "GND" H 2250 6176 50  0000 C CNN
+F 2 "" H 2250 6250 50  0001 C CNN
+F 3 "" H 2250 6250 50  0001 C CNN
+	1    2250 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6150 2250 6050
+Connection ~ 2250 6050
+Text Label 1550 5250 0    50   ~ 0
+GND
+Wire Wire Line
+	1400 5250 1550 5250
+$Comp
+L SparkFun-Aesthetics:GND #GND0105
+U 1 1 5FC3AA4B
+P 1550 6050
+F 0 "#GND0105" H 1550 6050 50  0001 L BNN
+F 1 "GND" H 1550 5976 50  0000 C CNN
+F 2 "" H 1550 6050 50  0001 C CNN
+F 3 "" H 1550 6050 50  0001 C CNN
+	1    1550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FC4EB8B
+P 1550 5750
+F 0 "#FLG0101" H 1550 5825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 5900 50  0000 C CNN
+F 2 "" H 1550 5750 50  0001 C CNN
+F 3 "~" H 1550 5750 50  0001 C CNN
+	1    1550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5750 1550 5950
+Text Label 7100 6000 0    50   ~ 0
+PWR_FLAG
+Wire Wire Line
+	6900 6000 7100 6000
+$Comp
+L SparkFun-Capacitors:CAP_POL1206 C4
+U 1 1 5FCB6693
+P 3200 1100
+F 0 "C4" H 3328 1096 50  0000 L CNN
+F 1 "10uF" H 3328 1005 50  0000 L CNN
+F 2 "SparkFun-Capacitors:EIA3216" H 3230 1250 20  0001 C CNN
+F 3 "" H 3200 1100 50  0001 C CNN
+	1    3200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP_POL1206 C5
+U 1 1 5FCBBA00
+P 3200 2150
+F 0 "C5" H 3328 2146 50  0000 L CNN
+F 1 "10uF" H 3328 2055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:EIA3216" H 3230 2300 20  0001 C CNN
+F 3 "" H 3200 2150 50  0001 C CNN
+	1    3200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:CAP_POL1206 C6
+U 1 1 5FCBC887
+P 3200 3150
+F 0 "C6" H 3328 3146 50  0000 L CNN
+F 1 "10uF" H 3328 3055 50  0000 L CNN
+F 2 "SparkFun-Capacitors:EIA3216" H 3230 3300 20  0001 C CNN
+F 3 "" H 3200 3150 50  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
