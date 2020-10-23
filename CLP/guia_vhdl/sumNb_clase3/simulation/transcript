@@ -1,0 +1,123 @@
+# Loading project sumNb_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_clp_test/simulation/audio_dac
+# Loading project audio_dac_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_clp_simulaciones/audio_dac_simu
+# Loading project audio_dac_vhd_simu
+# Compile of audio_dac.vhd was successful.
+# Compile of audio_dac_vhd.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.audio_dac_vhd
+# vsim work.audio_dac_vhd 
+# Start time: 01:27:23 on Oct 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.audio_dac_vhd(audio_dac_vhd_arch)
+# Loading work.audio_dac(audio_dac_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/audio_dac_vhd/*
+run 3us
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# End time: 01:30:41 on Oct 19,2020, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 1
+# Closing project /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_clp_simulaciones/audio_dac_simu/audio_dac_vhd_simu.mpf
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/sumNb_clase3/simulation/sumNb_simu
+# Loading project sumNb_simu
+vsim work.sumnb_vhd
+# vsim work.sumnb_vhd 
+# Start time: 01:31:18 on Oct 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumnb_vhd(sumnb_vhd_arch)
+# Loading work.sumnb(sumnb_arch)
+view wav
+# .main_pane.wave.interior.cs.body.pw.wf
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/sumnb_vhd/*
+run 3us
+# End time: 01:33:42 on Oct 19,2020, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 1
+# Closing project /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/guia_vhdl/sumNb_clase3/simulation/sumNb_simu.mpf
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_clp_simulaciones/audio_dac_simu/audio_dac_vhd_simu
+# Loading project audio_dac_vhd_simu
+vsim work.audio_dac_vhd
+# vsim work.audio_dac_vhd 
+# Start time: 01:34:00 on Oct 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.audio_dac_vhd(audio_dac_vhd_arch)
+# Loading work.audio_dac(audio_dac_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/audio_dac_vhd/*
+# Compile of audio_dac.vhd was successful.
+# Compile of audio_dac_vhd.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+start simulation
+# ambiguous command name "start": startIndProgressBar starter
+vsim work.audio_dac_vhd
+# End time: 01:39:22 on Oct 19,2020, Elapsed time: 0:05:22
+# Errors: 0, Warnings: 2
+# vsim work.audio_dac_vhd 
+# Start time: 01:39:22 on Oct 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.audio_dac_vhd(audio_dac_vhd_arch)
+# Loading work.audio_dac(audio_dac_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /audio_dac_vhd/DUT/data_o has no driver.
+# This port will contribute value (U) to the signal network.
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/audio_dac_vhd/*
+run 3us
+quit -sim
+# End time: 01:42:53 on Oct 19,2020, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 2
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/audio_dac_modelsim/simulation
+# Loading project audiodac_modelsim
+# Compile of audio_dac.vhd was successful.
+# Compile of audiodac_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.audio_dac_vhd
+# vsim work.audio_dac_vhd 
+# Start time: 01:45:12 on Oct 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.audio_dac_vhd(audio_dac_vhd_arch)
+# Loading work.audio_dac(audio_dac_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /audio_dac_vhd/DUT/data_o has no driver.
+# This port will contribute value (U) to the signal network.
+add wave sim:/audiodac_tb/*
+# ** UI-Msg: (vish-4014) No objects found matching '/audiodac_tb/*'.
+# Compile of audio_dac.vhd was successful.
+# Compile of audiodac_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# End time: 01:46:37 on Oct 19,2020, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 8
+# Closing project /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/audio_dac_modelsim/simulation/audiodac_modelsim.mpf
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/audio_dac_modelsim/simulation/audiodac_modelsim
+# Loading project audiodac_modelsim
+# Compile of audio_dac.vhd was successful.
+# Compile of audiodac_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled

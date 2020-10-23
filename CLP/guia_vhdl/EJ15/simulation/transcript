@@ -1,0 +1,55 @@
+# Loading project counterBCD1dig_simu
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sumNb_simu
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd failed with 14 errors.
+# 2 compiles, 1 failed with 14 errors.
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.sumnb_vhd
+# vsim work.sumnb_vhd 
+# Start time: 16:46:33 on Oct 16,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sumnb_vhd(sumnb_vhd_arch)
+# Loading work.sumnb(sumnb_arch)
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave sim:/sumNb_VHD/*
+run 3us
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sumnb_vhd(sumnb_vhd_arch)
+# Loading work.sumnb(sumnb_arch)
+run
+run
+restart
+run
+# Compile of sumNb.vhd was successful.
+# Compile of sumNb_VHD.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sumnb_vhd(sumnb_vhd_arch)
+# Loading work.sumnb(sumnb_arch)
+run
+# End time: 00:07:26 on Oct 17,2020, Elapsed time: 7:20:53
+# Errors: 0, Warnings: 1

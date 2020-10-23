@@ -1,0 +1,93 @@
+# Loading project audio_dac_simulation
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_controller_modelsim/simulation
+# Loading project i2c_controller_simulation
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/simulation
+# Loading project i2c_audio_tb
+# Compile of i2c_audio_config.vhd failed with 1 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of i2c_audio_config.vhd failed with 1 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of i2c_audio_config.vhd failed with 1 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of i2c_audio_config.vhd failed with 1 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of i2c_audio_config.vhd failed with 6 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 7 errors.
+# Compile of i2c_audio_config.vhd failed with 6 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 7 errors.
+# Compile of i2c_audio_config.vhd failed with 6 errors.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 7 errors.
+# Compile of i2c_audio_config.vhd was successful.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_au_config_modelsim/simulation
+# Loading project i2c_au_config_simulation
+# Compile of i2c_audio_config.vhd was successful.
+# Compile of i2c_audio_config_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation
+# Loading project i2c_audio_tb
+# Compile of i2c_audio.vhd failed with 3 errors.
+# Compile of i2c_audio_config.vhd was successful.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_tb.vhd failed with 1 errors.
+# 4 compiles, 2 failed with 4 errors.
+# Compile of i2c_audio.vhd was successful.
+# Compile of i2c_audio_config.vhd was successful.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_tb.vhd failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of i2c_audio.vhd was successful.
+# Compile of i2c_audio_config.vhd was successful.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_tb.vhd failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of i2c_audio.vhd was successful.
+# Compile of i2c_audio_config.vhd was successful.
+# Compile of i2c_controller.vhd was successful.
+# Compile of i2c_audio_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.i2c_audio_tb
+# vsim work.i2c_audio_tb 
+# Start time: 21:45:23 on Oct 19,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.i2c_audio_tb(i2c_audio_tb_arch)
+# Loading work.i2c_audio(i2c_audio_arch)
+# Loading work.i2c_audio_config(i2c_audio_config_arch)
+# Loading work.i2c_controller(i2c_controller_arch)
+add wave sim:/i2c_audio_tb/*
+run
+# ** Fatal: (vsim-3421) Value 33 is out of range 0 to 32.
+#    Time: 6602660 ns  Iteration: 2  Process: /i2c_audio_tb/DUT/u1/i2c_counter File: /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd Line: 60
+# Fatal error in Process i2c_counter at /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd line 60
+# 
+# HDL call sequence:
+# Stopped at /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd 60 Process i2c_counter
+# 
+restart
+# Break key hit
+# Break key hit
+# End time: 21:55:07 on Oct 19,2020, Elapsed time: 0:09:44
+# Errors: 1, Warnings: 34

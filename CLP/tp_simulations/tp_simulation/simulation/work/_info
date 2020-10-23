@@ -1,0 +1,269 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation
+Eaudio_dac
+Z0 w1603228235
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 42
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/audio_dac.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/audio_dac.vhd
+l0
+L5 1
+Vg:W;0Ia`1dk;YLI^X4VYU1
+!s100 AbXCkCVHilF[mVYHaMz7R2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1603228240
+!i10b 1
+Z9 !s108 1603228239.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/audio_dac.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/audio_dac.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aaudio_dac_arch
+R1
+R2
+R3
+DEx4 work 9 audio_dac 0 22 g:W;0Ia`1dk;YLI^X4VYU1
+!i122 42
+l30
+L15 132
+VUmkoL>kdBUnFJSOE]j;;H0
+!s100 >Y1nX?0E7D6TEB^b5b?dz1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ei2c_audio
+Z14 w1603173661
+R1
+R2
+R3
+!i122 43
+R4
+Z15 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio.vhd
+Z16 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio.vhd
+l0
+L5 1
+VaB?24eN]k_H2UJihnb1DC1
+!s100 ChQHOKk1f@hZ>:FkaXg]O0
+R7
+32
+R8
+!i10b 1
+Z17 !s108 1603228240.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio.vhd|
+Z19 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio.vhd|
+!i113 1
+R12
+R13
+Ai2c_audio_arch
+R1
+R2
+R3
+DEx4 work 9 i2c_audio 0 22 aB?24eN]k_H2UJihnb1DC1
+!i122 43
+l56
+L17 66
+V1ej=C`]hWJ>:QD]h:_N981
+!s100 7C;;K7UQYhHQgRW^ddl>S2
+R7
+32
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
+Ei2c_audio_config
+Z20 w1603171492
+R1
+R2
+R3
+!i122 44
+R4
+Z21 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio_config.vhd
+Z22 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio_config.vhd
+l0
+L5 1
+V2WBXz<nG@`ZoIXjhgMAiY2
+!s100 NO2:@?CSzd61;[fae>>812
+R7
+32
+R8
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio_config.vhd|
+Z24 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio_config.vhd|
+!i113 1
+R12
+R13
+Ai2c_audio_config_arch
+R1
+R2
+R3
+DEx4 work 16 i2c_audio_config 0 22 2WBXz<nG@`ZoIXjhgMAiY2
+!i122 44
+l32
+L20 78
+V2LdZX>zllVBFh_j^Wb]9D1
+!s100 BC4zP1MzEdmW]=^9HK=gE0
+R7
+32
+R8
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R12
+R13
+Ei2c_controller
+R20
+R1
+R2
+R3
+!i122 45
+R4
+Z25 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_controller.vhd
+Z26 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_controller.vhd
+l0
+L5 1
+VSYckIGN3S9H<PcL`SFC>P1
+!s100 ;iHP_XED]dFBSg@PXXfV=3
+R7
+32
+R8
+!i10b 1
+R17
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_controller.vhd|
+Z28 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_controller.vhd|
+!i113 1
+R12
+R13
+Ai2c_controller_arch
+R1
+R2
+R3
+DEx4 work 14 i2c_controller 0 22 SYckIGN3S9H<PcL`SFC>P1
+!i122 45
+l41
+L23 125
+VBG4A^b^aV0925]ed9`i0U1
+!s100 D_fBSC2mciVgRjKLRNhoz2
+R7
+32
+R8
+!i10b 1
+R17
+R27
+R28
+!i113 1
+R12
+R13
+Etop_entity
+Z29 w1603173726
+R1
+R2
+R3
+!i122 46
+R4
+Z30 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/top_entity.vhd
+Z31 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/top_entity.vhd
+l0
+L5 1
+Vk7RmYXZG^hLzCIo70hN]A2
+!s100 i>?^`BSVWJ=;aE9>YjJES2
+R7
+32
+R8
+!i10b 1
+R17
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/top_entity.vhd|
+Z33 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/top_entity.vhd|
+!i113 1
+R12
+R13
+Atop_entity_arch
+R1
+R2
+R3
+DEx4 work 10 top_entity 0 22 k7RmYXZG^hLzCIo70hN]A2
+!i122 46
+l48
+L18 51
+VPRhJ5eZPgMaN[ac91mDij3
+!s100 15j?3bKRNfCPoCH35^Ud71
+R7
+32
+R8
+!i10b 1
+R17
+R32
+R33
+!i113 1
+R12
+R13
+Etop_entity_tb
+Z34 w1603173848
+R1
+R2
+R3
+!i122 47
+R4
+Z35 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd
+Z36 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd
+l0
+L5 1
+VaPP[k0936[CgHHEP`^`g32
+!s100 M@:mhcN^dlB:31EJjUCAC2
+R7
+32
+R8
+!i10b 1
+R17
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd|
+Z38 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd|
+!i113 1
+R12
+R13
+Atop_entity_tb_arch
+R1
+R2
+R3
+Z39 DEx4 work 13 top_entity_tb 0 22 aPP[k0936[CgHHEP`^`g32
+!i122 47
+l32
+Z40 L8 43
+Z41 V^fcPAjo8KUXiN6?kSa9>H2
+Z42 !s100 jjAGXbD?Pl`V[Ue81kza;2
+R7
+32
+R8
+!i10b 1
+R17
+R37
+R38
+!i113 1
+R12
+R13

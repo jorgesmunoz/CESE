@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity audio_dac is
+    port(
+        clk_i: in std_logic;
+        rst_i: in std_logic;
+        bclk_o: out std_logic;
+        data_o: out std_logic;
+        lrck_o: out std_logic
+    );
+end;
+
+architecture audio_dac_arch of audio_dac is
+    constant CLK_REF: integer := 18432000;
+    constant SAMPLE_RATE: integer := 48000;
+    constant DATA_WIDTH: integer := 16
+    constant CHANNEL: integer := 2;
+    constant SIN_DATA: integer := 48;
+
+    signal bclk_s: std_logic;
+    
+    begin
+        bclk_gen: process(clk_i) is
+            variable bclk_div: natural;
+            begin
+                if rising_edge(clk_i) then
+                    if rst_i = '1' then
+                        bclk_div := 0;
+                        bclk_s <= '0';
+                    elsif (bclk_div >= CLK_REF / (SAMPLE_RATE*DATA_WIDTH*CHANNEL*2) - 1) then
+                        bclk_div := 0;
+                        bclk_s <= not bclk_s;
+                    else 
+                        bclk_div = bclk_div + 1;
+                    end if;
+                end if;
+            end process;
+            bclk_o <= bclk_s;
+
+end audio_dac_arch;

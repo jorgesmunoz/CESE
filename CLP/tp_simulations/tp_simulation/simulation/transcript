@@ -1,0 +1,7 @@
+# Loading project top_entity_tb
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/audio_dac_modelsim/simulation/audio_dac_simulation
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project audio_dac_simulation
+project open /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation/i2c_audio_tb
+# reading /home/jorge/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project i2c_audio_tb

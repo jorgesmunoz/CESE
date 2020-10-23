@@ -1,0 +1,19 @@
+/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/audio_dac_modelsim/audio_dac.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/audio_dac_modelsim/audio_dac.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity audio_dac
+-- Compiling architecture audio_dac_arch of audio_dac
+
+} {} {}} /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/audio_dac_modelsim/simulation/audio_dac_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/audio_dac_modelsim/simulation/audio_dac_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity audio_dac_tb
+-- Compiling architecture audio_dac_tb_arch of audio_dac_tb
+
+} {} {}}

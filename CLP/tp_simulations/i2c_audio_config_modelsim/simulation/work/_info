@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_controller_modelsim/simulation
+Ei2c_audio_config
+Z0 w1603152066
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_audio_config.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_audio_config.vhd
+l0
+L5 1
+V2WBXz<nG@`ZoIXjhgMAiY2
+!s100 NO2:@?CSzd61;[fae>>812
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1603152089
+!i10b 1
+Z9 !s108 1603152089.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_audio_config.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_audio_config.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Ai2c_audio_config_arch
+R1
+R2
+R3
+DEx4 work 16 i2c_audio_config 0 22 2WBXz<nG@`ZoIXjhgMAiY2
+!i122 14
+l32
+L20 77
+VCFa2Xh5hldlQ@z>o1O3Yn2
+!s100 V19bU2kF?E?ZBoJh2e6:n2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ei2c_controller
+Z14 w1603152075
+R1
+R2
+R3
+!i122 15
+R4
+Z15 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_controller.vhd
+Z16 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_controller.vhd
+l0
+L5 1
+VJC=U;^cC>]:GYMROL]m[23
+!s100 IIN@JVUQhUmA]4O[7hBBd0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_controller.vhd|
+Z18 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_config_modelsim/i2c_controller.vhd|
+!i113 1
+R12
+R13
+Ai2c_controller_arch
+R1
+R2
+R3
+Z19 DEx4 work 14 i2c_controller 0 22 JC=U;^cC>]:GYMROL]m[23
+!i122 15
+l42
+Z20 L24 115
+Z21 VYlZIL]zmoM`cnU:XjIXF>3
+Z22 !s100 HfH9^A0Dkb0]T0o8jHD>03
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13

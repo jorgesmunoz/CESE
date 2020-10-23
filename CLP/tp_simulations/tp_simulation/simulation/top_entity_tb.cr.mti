@@ -1,0 +1,37 @@
+/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity i2c_audio
+-- Compiling architecture i2c_audio_arch of i2c_audio
+
+} {} {}} /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_audio_config.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_entity_tb
+-- Compiling architecture top_entity_tb_arch of top_entity_tb
+
+} {} {}} /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/simulation/top_entity_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_entity_tb
+-- Compiling architecture top_entity_tb_arch of top_entity_tb
+
+} {} {}} /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/tp_simulation/i2c_controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity i2c_controller
+-- Compiling architecture i2c_controller_arch of i2c_controller
+
+} {} {}}

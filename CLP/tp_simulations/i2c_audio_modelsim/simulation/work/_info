@@ -1,0 +1,183 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_au_config_modelsim/simulation
+Ei2c_audio
+Z0 w1603224546
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 138
+Z4 d/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation
+Z5 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio.vhd
+Z6 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio.vhd
+l0
+L5 1
+VNim?DW_co15Yi:]l`DChi0
+!s100 I6@FlRUhNJJhJYV>?Fja>1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1603224602
+!i10b 1
+Z9 !s108 1603224602.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio.vhd|
+Z11 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Ai2c_audio_arch
+R1
+R2
+R3
+DEx4 work 9 i2c_audio 0 22 Nim?DW_co15Yi:]l`DChi0
+!i122 138
+l57
+L18 68
+Vz7nSfU2e3RnNh6=EPcN=W2
+!s100 gaUi_3DW:]fXngO8oiLY11
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ei2c_audio_config
+Z14 w1603171359
+R1
+R2
+R3
+!i122 139
+R4
+Z15 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio_config.vhd
+Z16 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio_config.vhd
+l0
+L5 1
+V2WBXz<nG@`ZoIXjhgMAiY2
+!s100 NO2:@?CSzd61;[fae>>812
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio_config.vhd|
+Z18 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_audio_config.vhd|
+!i113 1
+R12
+R13
+Ai2c_audio_config_arch
+R1
+R2
+R3
+DEx4 work 16 i2c_audio_config 0 22 2WBXz<nG@`ZoIXjhgMAiY2
+!i122 139
+l32
+L20 78
+V2LdZX>zllVBFh_j^Wb]9D1
+!s100 BC4zP1MzEdmW]=^9HK=gE0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ei2c_audio_tb
+Z19 w1603224599
+R1
+R2
+R3
+!i122 141
+R4
+Z20 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation/i2c_audio_tb.vhd
+Z21 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation/i2c_audio_tb.vhd
+l0
+L5 1
+ViAmBmUc>N>`VmG>L0^4=>2
+!s100 UMBSNa6QnL4c;bhUlN4JU1
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation/i2c_audio_tb.vhd|
+Z23 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/simulation/i2c_audio_tb.vhd|
+!i113 1
+R12
+R13
+Ai2c_audio_tb_arch
+R1
+R2
+R3
+Z24 DEx4 work 12 i2c_audio_tb 0 22 iAmBmUc>N>`VmG>L0^4=>2
+!i122 141
+l27
+L8 33
+V4^jSS5n?Y<lKd[f]jK]k?0
+!s100 7VTJaj]R[;?5GekLQe9m13
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Ei2c_controller
+Z25 w1603224475
+R1
+R2
+R3
+!i122 140
+R4
+Z26 8/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd
+Z27 F/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd
+l0
+L5 1
+VSYckIGN3S9H<PcL`SFC>P1
+!s100 ;iHP_XED]dFBSg@PXXfV=3
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd|
+Z29 !s107 /home/jorge/Jorge/CESE_2020/materias/github_cese/CESE/CLP/tp_simulations/i2c_audio_modelsim/i2c_controller.vhd|
+!i113 1
+R12
+R13
+Ai2c_controller_arch
+R1
+R2
+R3
+DEx4 work 14 i2c_controller 0 22 SYckIGN3S9H<PcL`SFC>P1
+!i122 140
+l41
+L23 125
+VBG4A^b^aV0925]ed9`i0U1
+!s100 D_fBSC2mciVgRjKLRNhoz2
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13

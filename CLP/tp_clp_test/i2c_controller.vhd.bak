@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity i2c_controller is
+    generic(
+        DATA_WIDTH: natural := 24
+    );
+    port(
+        clk_i: in std_logic;
+        rst_i: in std_logic;
+        go_i: in std_logic;
+        wr_i: in std_logic;
+        i2c_data_i: in std_logic_vector(DATA_WIDTH-1 downto 0);
+        end_o: out std_logic;
+        ack_o: out std_logic;
+        sdo_o: out std_logic;
+        i2c_sclk_o: out std_logic;
+        i2c_sdat_o: out std_logic
+        --sd_Counter_i
+    );
+end;
+
+architecture i2c_controller_arch of i2c_controller is
+    constant CLK_REF: integer := 18432000;
+    constant SAMPLE_RATE: integer := 48000;
+    constant DATA_WIDTH: integer := 16;
+    constant CHANNEL: integer := 2;
+    constant SINE_DATA: integer := 48;
+    constant SINE_RANGE: integer := 65536;
+
+    constant SERIAL_DATA: integer := 33;
+
+    signal serial_counter: integer range 0 to SERIAL_DATA-1;
+
+    i2c_counter: process(clk_i) is
+        variable sel_counter: natural;
+        begin
+            if falling_edge(clk_i) then
+                if rst_i = '0' then
+                    serial_counter <= 0;
+                else
+                    sel_counter <= sel_counter + 1;
+                end if;
+            end if;
+        end process;
+
+
+
+end i2c_controller_arch;
